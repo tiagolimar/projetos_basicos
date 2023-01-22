@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.centralizar{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #DEDEDE;
+}
+
+h1{
+    margin-bottom: 26px;
+}
+
+form{
+    background-color: #FFFFFF;
+    padding: 16px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px #00000035;
+}
+
+form .cep{
+    display: flex;
+    justify-content: space-between;
+}
+
+form .cep input{
+    flex: 1;
+    height: 50px;
+    border: 2px solid #DEDEDE;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 5px;
+    transition-duration: .2s;
+}
+
+form .cep input:focus{
+    border-color: #1658f2;
+}
+
+form .cep button{
+    height: 50px;
+    padding: 0 16px;
+    border-radius: 5px;
+    background-color: #1658f2;
+    margin-left: 10px;
+    color: #FFFFFF;
+    font-weight: bold;
+    transition-duration: .2s;
+}
+
+form .cep button:hover{
+    background-color: #1045c1;
+    cursor: pointer;
+}
+
+form .resultado{
+    margin-top: 16px;
+}
+
+form .resultado h6{    
+    color: #999;
+    margin-bottom: 10px;
+}
+
+form .resultado h6 span{
+    color: #1658f2;
+    font-size: 16px;
+    display: block;
+}
+
+form .regioes{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px
+}
+
+form .regioes select{
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #DEDEDE;
+    padding-left: 10px;
+    flex: 1;
+    outline: none;
+}
+
+form .regioes select:focus{
+    border-color: #1658f2;
+    transition-duration: .2s;
+}
+
+form .calculadora{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form .calculadora input{
+    width: calc(50% - 8px);
+    height: 50px;
+    border: 2px solid #DEDEDE;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 5px;
+    transition-duration: .2s;
+}
+
+form .calculadora .btn{
+    width: calc(25% - 12px);
+    height: 50px;
+    padding: 0 16px;
+    border-radius: 5px;
+    background-color: #1658f2;
+    color: #FFFFFF;
+    font-weight: bold;
+    transition-duration: .2s;
+    margin-top: 16px;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+form .imc{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+form .imc .conteudo{
+    flex: 1;
+}
+
+form .imc label{
+    display: block;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+form .imc input{
+    width: 100%;
+    height: 50px;
+    border: 2px solid #dedede;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    padding-left: 10px;
+    transition-duration: 0.2s;
+}
+
+form .imc button{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: #1658f2;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    transition-duration: 0.2s;
+}
+
+form .imc input:focus{
+    outline: none;
+    border: 2px solid #1045c1;
+}
+
+form .imc button:focus, form .imc button:hover{
+    outline: none;
+    background-color: #1045c1;
+    cursor: pointer;
+}

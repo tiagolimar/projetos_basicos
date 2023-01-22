@@ -1,0 +1,8 @@
+
+html >>> class = "valor-1 valor-2 valor-3"
+css  >>> form.umaclass (tag form que tem a class "uma class")
+css  >>> form .umaclass (qualquer tag que tenha a class "uma class" e que esteja dentro de um form)
+
+ACCORDION
+SLIDER
+CARROSEL
