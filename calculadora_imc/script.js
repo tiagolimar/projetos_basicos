@@ -1,11 +1,11 @@
 function checagem(){
-    valores = document.getElementsByTagName("input")
-    sem_valores_vazios = true
+    let valores = document.getElementsByTagName("input")
+    let sem_valores_vazios = true;
 
     Array.from(valores).forEach(function(element) {
         if (element.value == ""){
             alert('Escreva um valor para o campo '+element.name);
-            sem_valores_vazios = false
+            sem_valores_vazios = false;
         }
     });
     
@@ -26,17 +26,15 @@ function calcular(valores){
 
     let classificacao = new Map();
    
-    classificacao.set(18.5,"Magreza");
-    classificacao.set(24.9,["Peso normal","teste"]);
+    classificacao.set(24.9,"Peso normal");
     classificacao.set(29.9,"Sobrepeso");
     classificacao.set(34.9,"Obesidade grau I");
     classificacao.set(40,"Obesidade grau II");
     classificacao.set(2000,"Obesidade grau III");
 
     for(let valor of classificacao.keys()) {
-        console.log(valor);
         if (pessoa.imc<=valor){
-            pessoa.imc_tipo = classificacao.get(valor[1]);
+            pessoa.imc_tipo = classificacao.get(valor);
             break;
         }
     }

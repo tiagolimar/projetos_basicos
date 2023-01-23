@@ -6,20 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Busca CEP</title>
     <link rel="stylesheet" href="estilo.css">
+    <script src="script.js"></script>
 </head>
 <body>
+    <div class="pendencia">Falta incluir verificação para CEP errado</div>
     <div class="centralizar">
         <h1>Busca CEP</h1>
         <form>
             <div class="cep">
                 <input type="text" placeholder="Digite seu CEP">
-                <button>Buscar</button>
+                <button type="button" onclick="BuscarCEP()">Buscar</button>
             </div>
             <div class="resultado">
-                <h6>Estado: <span>Ceará</span></h6>
-                <h6>Cidade: <span>Fortaleza</span></h6>
-                <h6>Bairro: <span>Edson Queiroz</span></h6>
-                <h6>Logradouro: <span>Rua Cidade ecológica</span></h6>
+                <h6>Estado: <span>-</span></h6>
+                <h6>Cidade: <span>-</span></h6>
+                <h6>Bairro: <span>-</span></h6>
+                <h6>Logradouro: <span>-</span></h6>
             </div>
         </form>
     </div>
