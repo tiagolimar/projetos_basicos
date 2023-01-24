@@ -6,18 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
     <link rel="stylesheet" href="estilo.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="centralizar">
         <h1>Calculadora</h1>
-        <form>
+        <form action="#">
             <div class="calculadora">
                 <input type="text" placeholder="valor 1">
                 <input type="text" placeholder="valor 2">
-                <button class="btn">+</button>
-                <button class="btn">-</button>
-                <button class="btn">*</button>
-                <button class="btn">/</button>
+                <button onclick="Calcular(this)" class="btn">+</button>
+                <button onclick="Calcular(this)" class="btn">-</button>
+                <button onclick="Calcular(this)" class="btn">*</button>
+                <button onclick="Calcular(this)" class="btn">/</button>
                 <div id="resultado">Resultado é: </div>
             </div>
         </form>
