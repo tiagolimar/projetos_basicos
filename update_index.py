@@ -3,9 +3,11 @@ import os
 
 nome_html = 'index.html'
 excludente_de_pastas = ['_','.']
-html_base = os.getcwd()+'\\'+'_annotate\\index_base.html'
+local_html_base = os.getcwd()+'\\'+'_annotate\\index_base.html'
+
 identificador_conteudo = '<<<>>>'
 novo_conteudo = ''
+texto_html = ''
 
 def identificar_pastas():
     caminho_atual = os.getcwd()
@@ -28,13 +30,12 @@ def identificar_pastas():
     return diretorios
 
 pastas = identificar_pastas()
-texto_html = ''
 
 for pasta in pastas:
     nome_pasta = pasta.upper().replace('_',' ')
     texto_html += f'\t\t<a target="_blank" href="{pasta}\\{nome_html}">{nome_pasta}</a>\n'
 
-with open(html_base,'r',encoding='utf-8') as arquivo:
+with open(local_html_base,'r',encoding='utf-8') as arquivo:
     conteudo = arquivo.readlines()
 
 for linha in conteudo:
