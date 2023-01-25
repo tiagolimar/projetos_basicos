@@ -47,6 +47,10 @@ form .imc{
     margin: 8px 0 ;
 }
 
+.esquerda input:hover, .esquerda input:focus{
+    border: 2px solid #1658f2;
+}
+
 .imc .btn{
     flex: 1;
     line-height: 50px;
@@ -70,11 +74,22 @@ form .imc{
 .direita{
     flex: 1;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .direita img{
-    width: 50px;
-    height: 100px;
+    width: calc(144px / 2);
+    height: calc(403px / 2);
+    display: none;
+}
+
+.direita img.visivel{
+    display: block;
+}
+
+.direita h1{
+    font-size: 16px;
+    text-transform: uppercase;
 }
