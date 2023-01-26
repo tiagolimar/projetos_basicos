@@ -63,6 +63,12 @@ form .imc{
     margin-top: 16px;
     font-size: 18px;
     margin-bottom: 16px;
+    border: 2px solid #1658f2;
+}
+
+.imc .btn:hover, .imc .btn:focus{
+    background-color: #1045c1;
+    border-color: #000;
 }
 
 .esquerda{
@@ -90,6 +96,8 @@ form .imc{
 }
 
 .direita h1{
-    font-size: 16px;
+    font-size: 12px;
     text-transform: uppercase;
+    text-align: center;
+    width: 90%;
 }

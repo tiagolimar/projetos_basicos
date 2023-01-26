@@ -5,30 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
+    <script src="script.js"></script>
     <title>Calculadora IMC</title>
 </head>
 <body>
     <div class="centralizar">
-        <form>
+        <form action="#">
             <h1>Calculadora de IMC</h1>
             <div class="imc">
                 <div class="esquerda">
                     <label for="peso">Peso</label>
-                    <input type="number" id="peso" placeholder="Digite o seu peso">
+                    <input type="text" id="peso" placeholder="Digite o seu peso">
                     <label for="altura">Altura</label>
-                    <input type="number" id="altura" placeholder="Digite a sua altura">
-                    <button type="submit" class="btn">Calcular</button>
+                    <input type="text" id="altura" placeholder="Digite a sua altura">
+                    <button type="submit" class="btn" onclick="Checagem()">Calcular</button>
                 </div>
                 <div class="direita">
                     <ul>
-                        <li><img src="img/00.jpg" alt="pessoa magra"></li>
+                        <li><img src="img/00.jpg" alt="pessoa com peso baixo"></li>
                         <li><img src="img/01.jpg" alt="pessoa com peso normal"></li>
                         <li><img src="img/02.jpg" alt="pessoa com sobrepeso"></li>
-                        <li><img src="img/03.jpg" alt="pessoa com obsesidade grau I" class="visivel"></li>
+                        <li><img src="img/03.jpg" alt="pessoa com obsesidade grau I"></li>
                         <li><img src="img/04.jpg" alt="pessoa com obsesidade grau II"></li>
                         <li><img src="img/05.jpg" alt="pessoa com obsesidade grau III"></li>
                     </ul>
-                    <h1>Você</h1>
+                    <h1 id="resultado">Descubra sua classificação!</h1>
                 </div>
             </div>
         </form>
