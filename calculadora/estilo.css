@@ -28,82 +28,12 @@ form{
     box-shadow: 0px 5px 15px #00000035;
 }
 
-form .cep{
-    display: flex;
-    justify-content: space-between;
-}
-
-form .cep input{
-    flex: 1;
-    height: 50px;
-    border: 2px solid #DEDEDE;
-    outline: none;
-    padding-left: 10px;
-    border-radius: 5px;
-    transition-duration: .2s;
-}
-
-form .cep input:focus{
-    border-color: #1658f2;
-}
-
-form .cep button{
-    height: 50px;
-    padding: 0 16px;
-    border-radius: 5px;
-    background-color: #1658f2;
-    margin-left: 10px;
-    color: #FFFFFF;
-    font-weight: bold;
-    transition-duration: .2s;
-}
-
-form .cep button:hover{
-    background-color: #1045c1;
-    cursor: pointer;
-}
-
-form .resultado{
-    margin-top: 16px;
-}
-
-form .resultado h6{    
-    color: #999;
-    margin-bottom: 10px;
-}
-
-form .resultado h6 span{
-    color: #1658f2;
-    font-size: 16px;
-    display: block;
-}
-
-form .regioes{
-    width: 800px;
-    display: flex;
-    justify-content: space-between;
-    gap: 16px
-}
-
-form .regioes select{
-    height: 50px;
-    border-radius: 5px;
-    border: 2px solid #DEDEDE;
-    padding-left: 10px;
-    flex: 1;
-    outline: none;
-}
-
-form .regioes select:focus{
-    border-color: #1658f2;
-    transition-duration: .2s;
-}
-
 form .calculadora{
     width: 500px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 16px;
 }
 
 form .calculadora input{
@@ -117,7 +47,7 @@ form .calculadora input{
 }
 
 form .calculadora .btn{
-    width: calc(25% - 12px);
+    width: calc(100% / 5 - 4 * 8px / 2);
     height: 50px;
     padding: 0 16px;
     border-radius: 5px;
@@ -128,4 +58,8 @@ form .calculadora .btn{
     margin-top: 16px;
     font-size: 24px;
     margin-bottom: 16px;
+}
+
+form .resultado{
+    flex: 1;
 }
