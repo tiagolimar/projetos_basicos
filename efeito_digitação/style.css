@@ -1,0 +1,13 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: rgb(186, 0, 192);
+    text-shadow: 2px 2px 2px #00000050;
+}
