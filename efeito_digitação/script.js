@@ -1,29 +1,50 @@
-let i = 0;
-intervalo = setInterval(printae,150);
+let palavras = ["marketing","comunicação","recursos humanos","branding","vendas"];
+let div_letras = document.getElementsByClassName("letra");
 
-function SumaDaqui(){
-    divisorias = document.getElementsByTagName('div');
-    divisorias.removeChild(divisoria[i]);
-    i = i-1;
-    if (i==0){
-        clearInterval(sumido);
+let tempo_de_espera = 1000;
+let tempo_digitacao = 50;
+let contador_de_palavra = 0;
+let contador_de_letra = 0;
+
+let digitando = setInterval(imprimir,tempo_digitacao);
+
+function imprimir(){
+    let palavra = palavras[contador_de_palavra];
+
+    div_letras[contador_de_letra].innerHTML = palavra[contador_de_letra];
+    div_letras[contador_de_letra].classList.add('visivel');
+
+    contador_de_letra++;
+
+    console.log(contador_de_letra, palavra.length);
+
+    if (contador_de_letra == palavra.length){
+        contador_de_letra = contador_de_letra -1;
+
+        clearInterval(digitando);
+
+        delay = setTimeout(espera,tempo_de_espera)
+        
+        contador_de_palavra++;
+        if (contador_de_palavra == palavras.length){
+            contador_de_palavra = 0;
+        }
     }
 }
 
-sumido = setInterval(SumaDaqui,150);
+function apagar(){
+    div_letras[contador_de_letra].classList.remove('visivel');
+    contador_de_letra = contador_de_letra - 1;
 
-function printae(){
-    let palavra = 'DIGITANDO...'
+    console.log(contador_de_letra)
 
-    divisoria = document.createElement('div');
-    divisoria.innerHTML = palavra[i];
-    document.body.appendChild(divisoria);
-    
-    i++;
-
-    if (i == palavra.length){
-        clearInterval(intervalo);
-        SumaDaqui(i);
+    if (contador_de_letra == - 1){
+        contador_de_letra = 0;
+        clearInterval(apagando);
+        digitando = setInterval(imprimir,tempo_digitacao);
     }
 }
 
+function espera(){
+    apagando = setInterval(apagar,tempo_digitacao)
+}
