@@ -16,8 +16,6 @@ function imprimir(){
 
     contador_de_letra++;
 
-    console.log(contador_de_letra, palavra.length);
-
     if (contador_de_letra == palavra.length){
         contador_de_letra = contador_de_letra -1;
 
@@ -35,8 +33,6 @@ function imprimir(){
 function apagar(){
     div_letras[contador_de_letra].classList.remove('visivel');
     contador_de_letra = contador_de_letra - 1;
-
-    console.log(contador_de_letra)
 
     if (contador_de_letra == - 1){
         contador_de_letra = 0;
