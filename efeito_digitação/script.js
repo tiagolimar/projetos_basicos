@@ -1,8 +1,8 @@
 let palavras = ["marketing","comunicação","recursos humanos","branding","vendas"];
 let div_letras = document.getElementsByClassName("letra");
 
-let tempo_de_espera = 3000;
-let tempo_digitacao = 10;
+let tempo_de_espera = 1000;
+let tempo_digitacao = 50;
 let contador_de_palavra = 0;
 let contador_de_letra = 0;
 
