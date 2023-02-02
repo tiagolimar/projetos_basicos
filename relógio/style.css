@@ -29,17 +29,16 @@ body{
 #hora{
     height: 100px;
     border: 2px solid #690000;
-    transform: rotate(30deg);
+
 }
 
 #minuto{
     height: 175px;
     border: 2px solid #006900;
-    transform: rotate(45deg);
 }
 
 #segundo{
     height: 250px;
     border: 2px solid #000069;
-    transform: rotate(21deg);
+
 }
