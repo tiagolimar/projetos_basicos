@@ -4,11 +4,12 @@ body{
     align-items: center;
     width: 100vw;
     height: 100vh;
+    background-color: #464646;
 }
 
 .moldura{
-    width: 600px;
-    height: 600px;
+    width: 300px;
+    height: 300px;
     background-color: #dedede;
     border: 3px solid #000;
     border-radius: 50%;
@@ -17,7 +18,7 @@ body{
     position: relative;
 }
 
-#hora, #minuto, #segundo{
+#hora, #minuto, #segundo, .eixo{
     position: absolute;
     bottom: 50%;
     left: 50%;
@@ -27,18 +28,45 @@ body{
 }
 
 #hora{
-    height: 100px;
+    height: calc(0.45 * 300px / 2);
     border: 2px solid #690000;
+    background-color: #690000;
 
 }
 
 #minuto{
-    height: 175px;
+    height: calc(0.75 * 300px / 2);
     border: 2px solid #006900;
+    background-color: #006900;
 }
 
 #segundo{
-    height: 250px;
+    height: calc(0.875 * 300px / 2);
     border: 2px solid #000069;
+    background-color: #000069;
+}
 
+.graduacao{
+    position: absolute;
+    width: 3px;
+    height: 15px;
+    z-index: 1;
+
+    bottom: calc(50% + 300px / 2 - 15px);
+    left: 50%;
+    transform-origin: 0px 150px;
+    background-color: #000;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.eixo{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #000;
+    transform: translateX(50%);
+    transform: translateY(50%);
 }
