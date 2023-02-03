@@ -6,3 +6,5 @@ css  >>> form .umaclass (qualquer tag que tenha a class "uma class" e que esteja
 ACCORDION
 SLIDER
 CARROSEL
+
+partterns css naming
