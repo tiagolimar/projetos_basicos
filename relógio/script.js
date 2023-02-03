@@ -2,6 +2,7 @@ let ponteiro_hora = document.getElementById("hora");
 let ponteiro_minuto = document.getElementById("minuto");
 let ponteiro_segundo = document.getElementById("segundo");
 
+
 const relogio = setInterval(function time(){
     let dateToday = new Date();
     let hr = Number(dateToday.getHours());
