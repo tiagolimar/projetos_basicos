@@ -2,6 +2,7 @@
     --diametro: 500px;
     --raio: 250px;
     --raio-texto: 215px;
+    --espessura-da-borda: 60px;
 }
 
 body{
@@ -11,6 +12,17 @@ body{
     width: 100vw;
     height: 100vh;
     background-color: #464646;
+}
+
+.moldura-externa{
+    width: calc(var(--diametro) + var(--espessura-da-borda));
+    height: calc(var(--diametro) + var(--espessura-da-borda));
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 20px rgb(77, 55, 0);
+    background-color: rgb(145, 123, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .moldura{
