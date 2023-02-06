@@ -1,3 +1,9 @@
+:root{
+    --diametro: 500px;
+    --raio: 250px;
+    --raio-texto: 215px;
+}
+
 body{
     display: flex;
     justify-content: center;
@@ -8,8 +14,8 @@ body{
 }
 
 .moldura{
-    width: 500px;
-    height: 500px;
+    width: var(--diametro);
+    height: var(--diametro);
     background-color: #dedede;
     border: 1px solid #000;
     border-radius: 50%;
@@ -17,7 +23,7 @@ body{
     position: relative;
 }
 
-#hora, #minuto, #segundo, .eixo{
+#ponteiro_hora, #ponteiro_minuto, #ponteiro_segundo, .eixo{
     position: absolute;
     bottom: 50%;
     left: 50%;
@@ -26,27 +32,28 @@ body{
     box-shadow: 2px 2px 3px #00000065;
 }
 
-#hora{
-    height: calc(0.50 * 500px / 2);
+#ponteiro_hora{
+    height: calc(0.50 * var(--diametro) / 2);
     background-color: #690000;
+    z-index: 4;
+}
+
+#ponteiro_minuto{
+    height: calc(0.70 * var(--diametro) / 2);
+    background-color: #006900;
     z-index: 3;
 }
 
-#minuto{
-    height: calc(0.70 * 500px / 2);
-    background-color: #006900;
-    z-index: 2;
-}
-
-#segundo{
-    height: calc(0.90 * 500px / 2);
+#ponteiro_segundo{
+    height: calc(0.90 * var(--diametro) / 2);
     background-color: #000069;
+    z-index: 2;
 }
 
 #medidor_hora, #medidor_minuto{
     position: absolute;
     left: 50%;
-    transform-origin: 0px 250px;
+    transform-origin: 0px var(--raio);
     background-color: #000;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -57,13 +64,13 @@ body{
 #medidor_hora{
     width: 2px;
     height: 20px;
-    bottom: calc(50% + 500px / 2 - 20px);
+    bottom: calc(50% + var(--diametro) / 2 - 20px);
 }
 
 #medidor_minuto{
     width: 1px;
     height: 15px;
-    bottom: calc(50% + 500px / 2 - 15px);
+    bottom: calc(50% + var(--diametro) / 2 - 15px);
     transform: rotate(6deg);
 }
 
@@ -73,5 +80,23 @@ body{
     border-radius: 50%;
     background-color: #000;
     transform: translate(-2px, 3px);
-    z-index: 4;
+    z-index: 5;
+}
+
+#numeral{
+    text-align: center;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+
+    position: absolute;
+
+    left: calc(50% - 15px);
+    bottom: calc(50% - 15px + var(--raio-texto));
+    z-index: 1;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-stretch: condensed;
+    font-weight: bold;
 }
