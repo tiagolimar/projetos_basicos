@@ -1,7 +1,7 @@
 function submitForm() {
     const name = document.getElementById("Nome").value;
     const email = document.getElementById("Email").value;
-    const data = "Nome: ${name}\nEmail: ${email}\n";
+    const data = "Nome: "+name+"\nEmail: "+email+"\n";
   
     const hiddenElement = document.createElement("a");
     hiddenElement.href = 'data:text/plain;charset=utf-8,' + encodeURI(data);
