@@ -11,5 +11,13 @@
     <div class="centralizar">
 <<<>>>
     </div>
+    <script>
+        projetos = document.getElementsByClassName("projeto")
+        Array.from(projetos).forEach(function(projeto){
+            projeto.addEventListener("click",function(){
+                window.open(this.querySelector('a').href,"_blank")
+            })
+        })
+    </script>
 </body>
 </html>

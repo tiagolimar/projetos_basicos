@@ -9,15 +9,46 @@
 </head>
 <body>
     <div class="centralizar">
-		<a target="_blank" href="banner\index.html">BANNER</a>
-		<a target="_blank" href="busca_cep\index.html">BUSCA CEP</a>
-		<a target="_blank" href="busca_região\index.html">BUSCA REGIÃO</a>
-		<a target="_blank" href="calculadora\index.html">CALCULADORA</a>
-		<a target="_blank" href="calculadora_imc\index.html">CALCULADORA IMC</a>
-		<a target="_blank" href="efeito_digitação\index.html">EFEITO DIGITAÇÃO</a>
-		<a target="_blank" href="relógio\index.html">RELÓGIO</a>
-		<a target="_blank" href="requisição\index.html">REQUISIÇÃO</a>
-
+		<div class="projeto link0" >
+            <a target="_blank" id="link0" href="banner\index.html">BANNER</a>
+            <p>modificado em: 03/02/2023 22:48</p>
+        </div>
+		<div class="projeto link1" >
+            <a target="_blank" id="link1" href="busca_cep\index.html">BUSCA CEP</a>
+            <p>modificado em: 03/02/2023 22:48</p>
+        </div>
+		<div class="projeto link2" >
+            <a target="_blank" id="link2" href="busca_região\index.html">BUSCA REGIÃO</a>
+            <p>modificado em: 03/02/2023 22:48</p>
+        </div>
+		<div class="projeto link3" >
+            <a target="_blank" id="link3" href="calculadora\index.html">CALCULADORA</a>
+            <p>modificado em: 03/02/2023 22:48</p>
+        </div>
+		<div class="projeto link4" >
+            <a target="_blank" id="link4" href="calculadora_imc\index.html">CALCULADORA IMC</a>
+            <p>modificado em: 03/02/2023 22:48</p>
+        </div>
+		<div class="projeto link5" >
+            <a target="_blank" id="link5" href="efeito_digitação\index.html">EFEITO DIGITAÇÃO</a>
+            <p>modificado em: 03/02/2023 22:48</p>
+        </div>
+		<div class="projeto link6" >
+            <a target="_blank" id="link6" href="relógio\index.html">RELÓGIO</a>
+            <p>modificado em: 06/02/2023 23:12</p>
+        </div>
+		<div class="projeto link7" >
+            <a target="_blank" id="link7" href="requisição\index.html">REQUISIÇÃO</a>
+            <p>modificado em: 08/02/2023 21:08</p>
+        </div>
     </div>
+    <script>
+        projetos = document.getElementsByClassName("projeto")
+        Array.from(projetos).forEach(function(projeto){
+            projeto.addEventListener("click",function(){
+                window.open(this.querySelector('a').href,"_blank")
+            })
+        })
+    </script>
 </body>
 </html>
