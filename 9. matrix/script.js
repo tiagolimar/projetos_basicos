@@ -17,9 +17,13 @@ function CriarListaCaracteres(){
     }
 }
 
-function EscolherItem(lista){
+function EscolherItem(lista,retorna_indice=false){
     indice_aleatorio = Math.floor(Math.random()*lista.length)
-    return lista[indice_aleatorio]
+    if(retorna_indice){
+        return indice_aleatorio
+    }else{
+        return lista[indice_aleatorio]
+    }
 }
 
 function MultiplicarElementos(quantidade,elemento){
@@ -61,19 +65,25 @@ function AnimarColuna(coluna) {
   
 function AnimarColunas() {
     colunas = document.querySelectorAll(".coluna")
-    indices = [...Array(quant_colunas).keys()]
+    colunas = [...Embaralhar(colunas)]
+    i = 0
 
-    animador_colunas = setInterval(function(){
-        if(indices.length==0){
-            clearInterval(animador_colunas)
-        }else{
-            indice = EscolherItem(indices)
-            if(indices.includes(indice)){
-                indices = indices.filter((item, index) => index !== indice)
-                AnimarColuna(colunas[indice])
-            }
-        }
-    },intervalo_tempo*3)
+    if(i<colunas.length){
+        animador = setInterval(function(){
+            AnimarColuna(colunas[i])
+            i++
+        },intervalo_tempo*3)
+    }else{
+        clearInterval(animador)
+    }
+}
+
+function Embaralhar(arr) {
+    for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
 }
 
 CriarListaCaracteres()
