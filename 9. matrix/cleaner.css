@@ -6,7 +6,8 @@
     text-decoration: none;
     list-style: none;
     font-family: monospace;
-    font-size: 20px;
-    color: #0b880b;
+    font-size: 32px;
+    color: #0b880b60;
+    /* color: #0b880b; */
     background-color: #0f0f0f;
 }

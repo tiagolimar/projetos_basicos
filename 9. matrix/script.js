@@ -1,6 +1,8 @@
-const quant_colunas = 70
-const quant_linhas = 38
-const intervalo_tempo = 50
+const intervalo_tempo = 75
+const comprimento_do_rastro = 10
+
+const quant_colunas = 44
+const quant_linhas = 23
 
 const linha_original = document.querySelector(".linha")
 const coluna_original = document.querySelector(".coluna")
@@ -37,45 +39,42 @@ function AlterarCaracteres(){
     })
 }
 
-function AnimarColuna(coluna){
-    indice_principal = 0
-    linhas = coluna.querySelectorAll(".linha")
-
-    setInterval(function(){
+function AnimarColuna(coluna) {
+    let indice_principal = 0
+    let linhas = coluna.querySelectorAll(".linha")
+  
+    setInterval(function() {
         linhas[indice_principal].style = "color: white"
-
-        if(indice_principal>0){
+    
+        if (indice_principal>0) {
             linhas[indice_principal-1].style = "color: #0b880b"
-        }else{
+        } else {
             linhas[linhas.length-1].style = "color: #0b880b"
         }
-
-        indice_principal += 1
-        if(indice_principal==linhas.length){
-            indice_principal = 0
+    
+        indice_principal ++
+        if (indice_principal == linhas.length) {
+            indice_principal = 0;
         }
-    },intervalo_tempo)
+    }, intervalo_tempo)
 }
-
-function AnimarColunas(){
-    // indice_coluna = 0
+  
+function AnimarColunas() {
     colunas = document.querySelectorAll(".coluna")
-    Array.from(colunas).forEach(function(coluna){
-        AnimarColuna(coluna)
-    })
+    indices = [...Array(quant_colunas).keys()]
+
+    animador_colunas = setInterval(function(){
+        if(indices.length==0){
+            clearInterval(animador_colunas)
+        }else{
+            indice = EscolherItem(indices)
+            if(indices.includes(indice)){
+                indices = indices.filter((item, index) => index !== indice)
+                AnimarColuna(colunas[indice])
+            }
+        }
+    },intervalo_tempo*3)
 }
-// function AnimarColunas(){
-//     indice_coluna = 0
-//     colunas = document.querySelectorAll(".coluna")
-//     anima_todas_colunas = setInterval(function(){
-//         AnimarColuna(colunas[indice_coluna])
-//         console.log("opa")
-//         indice_coluna ++
-//         if (indice_coluna=colunas.length){
-//             clearInterval(anima_todas_colunas)
-//         }
-//     },150)
-// }
 
 CriarListaCaracteres()
 MultiplicarElementos(quant_linhas,linha_original)
