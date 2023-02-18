@@ -1,7 +1,6 @@
 body{
     display: flex;
     width: 100%;
-    height: 100%;
 }
 
 .coluna{
@@ -14,4 +13,5 @@ body{
     flex: 1;
     text-align: center;
     line-height: 28px;
+    width: 28px;
 }

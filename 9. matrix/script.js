@@ -1,28 +1,30 @@
 const intervalo_tempo = 75
-const comprimento_do_rastro = 10
-const modo_aleatorio = true //escreva 'binario' para ter apenas caracteres 0 e 1
+const intervalo_tempo_aparecimento_colunas = intervalo_tempo*2
+const comprimento_do_rastro = 8
+const modo_caracteres_aleatorio = true
 
-const quant_copias_coluna = 44
-const quant_copias_linhas = 24
+const quant_copias_coluna = 42
+const quant_copias_linhas = 28
 
 const quant_colunas = quant_copias_coluna+1
 const quant_linhas = quant_copias_linhas+1
-const tipos_de_caracteres = [0,18000,12000,12000,8000,5000,1000,1000,0]
+const tipos_de_caracteres = [0,18000,12000,8000,5000,1000,0]
 const linha_original = document.querySelector(".linha")
 const coluna_original = document.querySelector(".coluna")
-lista_de_caracteres = []
 
-function CriarListaCaracteres(){
-    if(modo_aleatorio){
+function CriarListaCaracteres(modo){
+    if(modo){
+        lista_de_caracteres = []
         numero_tipo = EscolherItem(tipos_de_caracteres)
+
+        for (let i=numero_tipo + 40;i<numero_tipo + 82;i=i+2){
+            caractere = String.fromCharCode(i)
+            lista_de_caracteres.push(caractere)
+        }
     }else{
-        numero_tipo = 1000
+        lista_de_caracteres = ["0","1"]
     }
 
-    for (let i=numero_tipo + 40;i<numero_tipo + 82;i=i+2){
-        caractere = String.fromCharCode(i)
-        lista_de_caracteres.push(caractere)
-    }
 }
 
 function EscolherItem(lista){
@@ -72,7 +74,7 @@ function AnimarColuna(coluna) {
     
         for (let i=comprimento_do_rastro-1;i>=0;i--){
 
-            nivel_de_transparencia = 100*(i/comprimento_do_rastro)
+            nivel_de_transparencia = Math.floor(100*(i/comprimento_do_rastro))
 
             if(nivel_de_transparencia==0){
                 nivel_de_transparencia = "00"
@@ -105,14 +107,10 @@ function AnimarColunas() {
         }else{
             clearInterval(animador)
         }
-    },intervalo_tempo*1.5)
+    },intervalo_tempo_aparecimento_colunas)
 }
 
-if(modo_aleatorio=='binario'){
-    lista_de_caracteres = ['0','1']
-}else{
-    CriarListaCaracteres()
-}
+CriarListaCaracteres(modo_caracteres_aleatorio)
 MultiplicarElementos(quant_linhas,linha_original)
 MultiplicarElementos(quant_colunas,coluna_original,true)
 AlterarCaracteres()
