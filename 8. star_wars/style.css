@@ -1,0 +1,17 @@
+:root{
+    --size-star: 5px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+#star{
+    width: var(--size-star);
+    height: var(--size-star);
+    background-color: white;
+    position:absolute;
+    border-radius: 50%;
+}
