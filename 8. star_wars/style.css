@@ -1,17 +1,46 @@
 :root{
-    --size-star: 5px;
+    --ang0: 225deg;
 }
 
 body{
     width: 100vw;
     height: 100vh;
+    max-width: 100vw;
+    max-height: 100vh;
     background-color: black;
+    overflow: hidden;
+}
+
+#star, .reference{
+    width: 5px;
+    height: 5px;
+    border-radius: 25%;
+    background-color: white;
+    transform-origin: top center;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: rotate(-45deg);
+}
+
+.reference{
+    background-color: black;
+    transform-origin: top center;
+    height: 1000px;
+    transform: rotate(var(--ang0));
 }
 
 #star{
-    width: var(--size-star);
-    height: var(--size-star);
-    background-color: white;
-    position:absolute;
-    border-radius: 50%;
+    animation: hyperspace .5s ease-in infinite;
+}
+
+@keyframes hyperspace {
+    0%{
+        transform: rotate(var(--ang0)) translate(0px,0px);
+    }
+
+    100%{
+        transform: rotate(var(--ang0)) translate(0px,400px);
+        height: 200px;
+    }
 }
