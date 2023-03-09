@@ -1,6 +1,7 @@
 function main() {
   let little_star = document.createElement('div');
   let root = document.querySelector(':root');
+  let display = document.querySelector('.display-angle');
 
   little_star.id = 'star';
 
@@ -16,9 +17,10 @@ function main() {
     dy = 50-y;
     dx = x-50;
     tan = dy/dx;
-    ang = (Math.atan(tan)*(180/Math.PI)+90)*-1;
+    ang = Math.atan(tan)*(180/Math.PI)+270;
     root.style.setProperty('--ang0',ang+'deg');
-    console.log(x.toFixed(2) +" ; "+y.toFixed(2)+" ; "+dx.toFixed(2)+" ; "+dy.toFixed(2)+" ; "+ang.toFixed(2));
+    display.innerHTML = ang.toFixed(2)+'°';
+    // console.log(x.toFixed(2) +" ; "+y.toFixed(2)+" ; "+dx.toFixed(2)+" ; "+dy.toFixed(2)+" ; "+ang.toFixed(2));
   }
 
   setPosition();

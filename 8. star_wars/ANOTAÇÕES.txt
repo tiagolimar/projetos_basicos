@@ -7,13 +7,6 @@ FAZER FUNÇÃO QUE DESTROI O ELEMENTO DEPOIS DA ANIMAÇÃO TER ACONTECIDO
 CHAMAR A FUNÇÃO PRINCIPAL RECOMEÇANDO O CICLO
 
 
-PRA DELETAR O ELEMENTO APÓS A ANIMAÇÃO
-const box = document.querySelector('.box');
-
-box.addEventListener('animationend', () => {
-  box.remove();
-});
-
 PRA MUDAR NOME DA ANIMAÇÃO
 const box = document.querySelector('.box');
 
