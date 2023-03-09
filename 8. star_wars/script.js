@@ -8,6 +8,18 @@ function main() {
   function setPosition(){
     y = Math.random()*100;
     x = Math.random()*100;
+
+    if(x>70){
+      x -= Math.random()*30;
+    }else if(x<10){
+      x += Math.random()*30;
+    }
+
+    if(y>30){
+      y -= Math.random()*30;
+    }else if(x<10){
+      y += Math.random()*30;
+    }
   
     little_star.style.top = y+'%';
     little_star.style.left = x+'%';
@@ -17,7 +29,15 @@ function main() {
     dy = 50-y;
     dx = x-50;
     tan = dy/dx;
-    ang = Math.atan(tan)*(180/Math.PI)+270;
+    ang = Math.atan(tan)*(180/Math.PI);
+
+    if (dy<0 && dx>0){
+      ang+=360;
+    }
+    else if (dy>0){
+      ang+=180;
+    }
+
     root.style.setProperty('--ang0',ang+'deg');
     display.innerHTML = ang.toFixed(2)+'°';
     // console.log(x.toFixed(2) +" ; "+y.toFixed(2)+" ; "+dx.toFixed(2)+" ; "+dy.toFixed(2)+" ; "+ang.toFixed(2));
