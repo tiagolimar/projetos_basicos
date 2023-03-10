@@ -19,7 +19,7 @@ body{
 }
 
 .eixoX, .eixoY{
-    width: 2px;
+    width: 1px;
     height: 200%;
     background-color: red;
     position: absolute;
@@ -43,8 +43,6 @@ body{
     background-color: white;
     transform-origin: top center;
     position:absolute;
-    top: 50%;
-    left: 50%;
     animation: hyperspace 1s ease-in 1;
 }
 
@@ -54,7 +52,7 @@ body{
     }
 
     100%{
-        transform: rotate(var(--ang0)) translate(0px,400px);
+        transform: rotate(var(--ang0)) translate(0px,100vh);
         height: 200px;
     }
 }

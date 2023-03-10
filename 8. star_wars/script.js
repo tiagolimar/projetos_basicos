@@ -9,20 +9,10 @@ function main() {
     y = Math.random()*100;
     x = Math.random()*100;
 
-    if(x>70){
-      x -= Math.random()*30;
-    }else if(x<10){
-      x += Math.random()*30;
-    }
+    window.innerHeight
+    window.innerWidth
 
-    if(y>30){
-      y -= Math.random()*30;
-    }else if(x<10){
-      y += Math.random()*30;
-    }
-  
-    little_star.style.top = y+'%';
-    little_star.style.left = x+'%';
+    little_star.style = `top:${y}%;left:${x}%`;
   }
 
   function setRotation(){
@@ -38,9 +28,8 @@ function main() {
       ang+=180;
     }
 
-    root.style.setProperty('--ang0',ang+'deg');
+    root.style.setProperty('--ang0',ang+30+'deg');
     display.innerHTML = ang.toFixed(2)+'°';
-    // console.log(x.toFixed(2) +" ; "+y.toFixed(2)+" ; "+dx.toFixed(2)+" ; "+dy.toFixed(2)+" ; "+ang.toFixed(2));
   }
 
   setPosition();
