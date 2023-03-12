@@ -1,7 +1,7 @@
 :root{
     --ang0: 0deg;
-    --ang1: 0deg;
-    --vel: .5s;
+    --vel: 1s;
+    --view-element-debug: none;
 }
 
 body{
@@ -14,13 +14,15 @@ body{
 }
 
 .display-angle{
+    display: var(--view-element-debug);
     font-size: 24px;
     color: white;
     margin-left: 16px;
     margin-top: 16px;
 }
 
-.eixoX, .eixoY{
+.eixoX, .eixoY, .eixo-ang{
+    display: var(--view-element-debug);
     width: 1px;
     height: 200%;
     background-color: red;
@@ -38,9 +40,30 @@ body{
     transform: translatey(-50%);
 }
 
+.eixo-ang{
+    transform-origin: 0 0;
+    background-color: yellow;
+    transform: rotate(var(--ang0));
+}
+
+#cateto-o, #cateto-a{
+    display: var(--view-element-debug);
+    width: 2px;
+    height: 10px;
+    background-color: green;
+    position: absolute;
+    transform-origin: top center;
+    z-index: 1000;
+}
+
+#cateto-a{
+    background-color: blue;
+    transform: rotate(90deg);
+}
+
 #star{
     width: 3px;
-    height: 5px;
+    height: 50px;
     border-radius: 25%;
     background-color: white;
     transform-origin: top center;
