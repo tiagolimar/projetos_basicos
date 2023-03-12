@@ -1,7 +1,5 @@
 :root{
-    --ang0: 0deg;
-    --vel: 1s;
-    --view-element-debug: none;
+    --vel: 700ms;
 }
 
 body{
@@ -13,69 +11,36 @@ body{
     overflow: hidden;
 }
 
-.display-angle{
-    display: var(--view-element-debug);
-    font-size: 24px;
-    color: white;
-    margin-left: 16px;
-    margin-top: 16px;
-}
-
-.eixoX, .eixoY, .eixo-ang{
-    display: var(--view-element-debug);
+.eixo-ang{
+    display: none;
     width: 1px;
     height: 200%;
     background-color: red;
     position: absolute;
     top: 50%;
     left: 50%;
-}
-
-.eixoX{
-    transform: translatey(-50%) rotate(90deg);
-}
-
-.eixoY{
-    transform-origin: 0 0;
-    transform: translatey(-50%);
-}
-
-.eixo-ang{
     transform-origin: 0 0;
     background-color: yellow;
     transform: rotate(var(--ang0));
 }
 
-#cateto-o, #cateto-a{
-    display: var(--view-element-debug);
-    width: 2px;
-    height: 10px;
-    background-color: green;
-    position: absolute;
-    transform-origin: top center;
-    z-index: 1000;
-}
-
-#cateto-a{
-    background-color: blue;
-    transform: rotate(90deg);
-}
-
-#star{
+.star{
     width: 3px;
     height: 50px;
     border-radius: 25%;
     background-color: white;
     transform-origin: top center;
     position:absolute;
+}
+
+.i-0{
     animation: hyperspace var(--vel) ease-in 1;
 }
 
-@keyframes hyperspace {
+@keyframes hyperspace{
     0%{
         transform: rotate(var(--ang0)) translate(0px,0px);
     }
-
     100%{
         transform: rotate(var(--ang0)) translate(0px,100vh);
         height: 200px;
