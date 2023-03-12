@@ -3,33 +3,31 @@ function main() {
   let root = document.querySelector(':root');
   let display = document.querySelector('.display-angle');
 
+  let originX = window.innerWidth/2;
+  let originY = window.innerHeight/2;
+  let y = Math.random()*30;
+  let x = Math.random()*30;
+
   little_star.id = 'star';
 
   function setPosition(){
-    y = Math.random()*100;
-    x = Math.random()*100;
+    y = [-y, y][Math.floor(Math.random()*2)]+originY;
+    x = [-x, x][Math.floor(Math.random()*2)]+originX;
 
-    window.innerHeight
-    window.innerWidth
-
-    little_star.style = `top:${y}%;left:${x}%`;
+    little_star.style = `top:${y}px;left:${x}px`;
   }
 
   function setRotation(){
-    dy = 50-y;
-    dx = x-50;
-    tan = dy/dx;
-    ang = Math.atan(tan)*(180/Math.PI);
+    let dy = originY-y;
+    let dx = x-originX;
+    let ady = Math.abs(y);
+    let adx = Math.abs(x);
 
-    if (dy<0 && dx>0){
-      ang+=360;
-    }
-    else if (dy>0){
-      ang+=180;
-    }
+    let ang = (Math.atan2(dy, dx) * 180) / Math.PI;
 
-    root.style.setProperty('--ang0',ang+30+'deg');
-    display.innerHTML = ang.toFixed(2)+'°';
+    root.style.setProperty('--ang0',ang+'deg');
+
+    display.innerHTML = `${x.toFixed(2)}px - ${y.toFixed(2)}px - ${ang.toFixed(2)}°`;
   }
 
   setPosition();
@@ -41,7 +39,7 @@ function main() {
     little_star.remove();
     main();
   });
-
 }
 
 main();
+

@@ -1,5 +1,7 @@
 :root{
     --ang0: 0deg;
+    --ang1: 0deg;
+    --vel: .5s;
 }
 
 body{
@@ -43,7 +45,7 @@ body{
     background-color: white;
     transform-origin: top center;
     position:absolute;
-    animation: hyperspace 1s ease-in 1;
+    animation: hyperspace var(--vel) ease-in 1;
 }
 
 @keyframes hyperspace {
