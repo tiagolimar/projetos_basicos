@@ -1,0 +1,21 @@
+:root{
+    --vel: 1000ms;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100vw;
+    max-height: 100vh;
+    background-image: radial-gradient(#000000, #100a29);
+    overflow: hidden;
+}
+
+.star{
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    background-color: white;
+    transform-origin: top center;
+    position:absolute;
+}

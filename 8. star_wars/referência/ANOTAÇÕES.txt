@@ -1,11 +1,8 @@
-1. Criar uma pasta para todos os arquivos CSS.
-2. Criar variável no JS para cálculo de tempo para o setInterval.
-3. Aleatorizar cores nos raios de luz.
-4. Aleatorizar efeito de guassian-blur nos raios de luz.
-5. Fazer degradê no background da página.
-6. Parte final do projeto:
-    6.1. Iniciar com uma constelação estática
-    6.2. Texto na tela escrito: "Hyperspace" com uma seta para cima piscando
-    6.3. Quando o usuário clicar as estrelas começam a se mexer
-    6.4. Quanto mais ele aperta o botão pra cima mais rápido se movem as estrela
-    6.5. Até chegar num determinado momento em que a tela dá um clarão e entra a animação principal
+1. Aleatorizar cores nos raios de luz.
+2. Preencher tela com mais elementos.
+3. Parte final do projeto:
+    3.1. Iniciar com uma constelação estática
+    3.2. Texto na tela escrito: "Hyperspace" com uma seta para cima piscando
+    3.3. Quando o usuário clicar as estrelas começam a se mexer
+    3.4. Quanto mais ele aperta o botão pra cima mais rápido se movem as estrela
+    3.5. Até chegar num determinado momento em que a tela dá um clarão e entra a animação principal
