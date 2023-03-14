@@ -1,8 +1,7 @@
 .i-0{animation: hyperspace0 var(--vel) linear infinite;}
 
 @keyframes hyperspace0{
-    0%{transform: rotate(var(--ang0)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang0)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang0)) translate(0px,33.333vh);
         height: 200px;}
@@ -14,8 +13,7 @@
 .i-1{animation: hyperspace1 var(--vel) linear infinite;}
 
 @keyframes hyperspace1{
-    0%{transform: rotate(var(--ang1)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang1)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang1)) translate(0px,33.333vh);
         height: 200px;}
@@ -27,8 +25,7 @@
 .i-2{animation: hyperspace2 var(--vel) linear infinite;}
 
 @keyframes hyperspace2{
-    0%{transform: rotate(var(--ang2)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang2)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang2)) translate(0px,33.333vh);
         height: 200px;}
@@ -40,8 +37,7 @@
 .i-3{animation: hyperspace3 var(--vel) linear infinite;}
 
 @keyframes hyperspace3{
-    0%{transform: rotate(var(--ang3)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang3)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang3)) translate(0px,33.333vh);
         height: 200px;}
@@ -53,8 +49,7 @@
 .i-4{animation: hyperspace4 var(--vel) linear infinite;}
 
 @keyframes hyperspace4{
-    0%{transform: rotate(var(--ang4)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang4)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang4)) translate(0px,33.333vh);
         height: 200px;}
@@ -66,8 +61,7 @@
 .i-5{animation: hyperspace5 var(--vel) linear infinite;}
 
 @keyframes hyperspace5{
-    0%{transform: rotate(var(--ang5)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang5)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang5)) translate(0px,33.333vh);
         height: 200px;}
@@ -79,8 +73,7 @@
 .i-6{animation: hyperspace6 var(--vel) linear infinite;}
 
 @keyframes hyperspace6{
-    0%{transform: rotate(var(--ang6)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang6)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang6)) translate(0px,33.333vh);
         height: 200px;}
@@ -92,8 +85,7 @@
 .i-7{animation: hyperspace7 var(--vel) linear infinite;}
 
 @keyframes hyperspace7{
-    0%{transform: rotate(var(--ang7)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang7)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang7)) translate(0px,33.333vh);
         height: 200px;}
@@ -105,8 +97,7 @@
 .i-8{animation: hyperspace8 var(--vel) linear infinite;}
 
 @keyframes hyperspace8{
-    0%{transform: rotate(var(--ang8)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang8)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang8)) translate(0px,33.333vh);
         height: 200px;}
@@ -118,8 +109,7 @@
 .i-9{animation: hyperspace9 var(--vel) linear infinite;}
 
 @keyframes hyperspace9{
-    0%{transform: rotate(var(--ang9)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang9)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang9)) translate(0px,33.333vh);
         height: 200px;}
@@ -131,8 +121,7 @@
 .i-10{animation: hyperspace10 var(--vel) linear infinite;}
 
 @keyframes hyperspace10{
-    0%{transform: rotate(var(--ang10)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang10)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang10)) translate(0px,33.333vh);
         height: 200px;}
@@ -144,8 +133,7 @@
 .i-11{animation: hyperspace11 var(--vel) linear infinite;}
 
 @keyframes hyperspace11{
-    0%{transform: rotate(var(--ang11)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang11)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang11)) translate(0px,33.333vh);
         height: 200px;}
@@ -157,8 +145,7 @@
 .i-12{animation: hyperspace12 var(--vel) linear infinite;}
 
 @keyframes hyperspace12{
-    0%{transform: rotate(var(--ang12)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang12)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang12)) translate(0px,33.333vh);
         height: 200px;}
@@ -170,8 +157,7 @@
 .i-13{animation: hyperspace13 var(--vel) linear infinite;}
 
 @keyframes hyperspace13{
-    0%{transform: rotate(var(--ang13)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang13)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang13)) translate(0px,33.333vh);
         height: 200px;}
@@ -183,8 +169,7 @@
 .i-14{animation: hyperspace14 var(--vel) linear infinite;}
 
 @keyframes hyperspace14{
-    0%{transform: rotate(var(--ang14)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang14)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang14)) translate(0px,33.333vh);
         height: 200px;}
@@ -196,8 +181,7 @@
 .i-15{animation: hyperspace15 var(--vel) linear infinite;}
 
 @keyframes hyperspace15{
-    0%{transform: rotate(var(--ang15)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang15)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang15)) translate(0px,33.333vh);
         height: 200px;}
@@ -209,8 +193,7 @@
 .i-16{animation: hyperspace16 var(--vel) linear infinite;}
 
 @keyframes hyperspace16{
-    0%{transform: rotate(var(--ang16)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang16)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang16)) translate(0px,33.333vh);
         height: 200px;}
@@ -222,8 +205,7 @@
 .i-17{animation: hyperspace17 var(--vel) linear infinite;}
 
 @keyframes hyperspace17{
-    0%{transform: rotate(var(--ang17)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang17)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang17)) translate(0px,33.333vh);
         height: 200px;}
@@ -235,8 +217,7 @@
 .i-18{animation: hyperspace18 var(--vel) linear infinite;}
 
 @keyframes hyperspace18{
-    0%{transform: rotate(var(--ang18)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang18)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang18)) translate(0px,33.333vh);
         height: 200px;}
@@ -248,8 +229,7 @@
 .i-19{animation: hyperspace19 var(--vel) linear infinite;}
 
 @keyframes hyperspace19{
-    0%{transform: rotate(var(--ang19)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang19)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang19)) translate(0px,33.333vh);
         height: 200px;}
@@ -261,8 +241,7 @@
 .i-20{animation: hyperspace20 var(--vel) linear infinite;}
 
 @keyframes hyperspace20{
-    0%{transform: rotate(var(--ang20)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang20)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang20)) translate(0px,33.333vh);
         height: 200px;}
@@ -274,8 +253,7 @@
 .i-21{animation: hyperspace21 var(--vel) linear infinite;}
 
 @keyframes hyperspace21{
-    0%{transform: rotate(var(--ang21)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang21)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang21)) translate(0px,33.333vh);
         height: 200px;}
@@ -287,8 +265,7 @@
 .i-22{animation: hyperspace22 var(--vel) linear infinite;}
 
 @keyframes hyperspace22{
-    0%{transform: rotate(var(--ang22)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang22)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang22)) translate(0px,33.333vh);
         height: 200px;}
@@ -300,8 +277,7 @@
 .i-23{animation: hyperspace23 var(--vel) linear infinite;}
 
 @keyframes hyperspace23{
-    0%{transform: rotate(var(--ang23)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang23)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang23)) translate(0px,33.333vh);
         height: 200px;}
@@ -313,8 +289,7 @@
 .i-24{animation: hyperspace24 var(--vel) linear infinite;}
 
 @keyframes hyperspace24{
-    0%{transform: rotate(var(--ang24)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang24)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang24)) translate(0px,33.333vh);
         height: 200px;}
@@ -326,8 +301,7 @@
 .i-25{animation: hyperspace25 var(--vel) linear infinite;}
 
 @keyframes hyperspace25{
-    0%{transform: rotate(var(--ang25)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang25)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang25)) translate(0px,33.333vh);
         height: 200px;}
@@ -339,8 +313,7 @@
 .i-26{animation: hyperspace26 var(--vel) linear infinite;}
 
 @keyframes hyperspace26{
-    0%{transform: rotate(var(--ang26)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang26)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang26)) translate(0px,33.333vh);
         height: 200px;}
@@ -352,8 +325,7 @@
 .i-27{animation: hyperspace27 var(--vel) linear infinite;}
 
 @keyframes hyperspace27{
-    0%{transform: rotate(var(--ang27)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang27)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang27)) translate(0px,33.333vh);
         height: 200px;}
@@ -365,8 +337,7 @@
 .i-28{animation: hyperspace28 var(--vel) linear infinite;}
 
 @keyframes hyperspace28{
-    0%{transform: rotate(var(--ang28)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang28)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang28)) translate(0px,33.333vh);
         height: 200px;}
@@ -378,8 +349,7 @@
 .i-29{animation: hyperspace29 var(--vel) linear infinite;}
 
 @keyframes hyperspace29{
-    0%{transform: rotate(var(--ang29)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang29)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang29)) translate(0px,33.333vh);
         height: 200px;}
@@ -391,8 +361,7 @@
 .i-30{animation: hyperspace30 var(--vel) linear infinite;}
 
 @keyframes hyperspace30{
-    0%{transform: rotate(var(--ang30)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang30)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang30)) translate(0px,33.333vh);
         height: 200px;}
@@ -404,8 +373,7 @@
 .i-31{animation: hyperspace31 var(--vel) linear infinite;}
 
 @keyframes hyperspace31{
-    0%{transform: rotate(var(--ang31)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang31)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang31)) translate(0px,33.333vh);
         height: 200px;}
@@ -417,8 +385,7 @@
 .i-32{animation: hyperspace32 var(--vel) linear infinite;}
 
 @keyframes hyperspace32{
-    0%{transform: rotate(var(--ang32)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang32)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang32)) translate(0px,33.333vh);
         height: 200px;}
@@ -430,8 +397,7 @@
 .i-33{animation: hyperspace33 var(--vel) linear infinite;}
 
 @keyframes hyperspace33{
-    0%{transform: rotate(var(--ang33)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang33)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang33)) translate(0px,33.333vh);
         height: 200px;}
@@ -443,8 +409,7 @@
 .i-34{animation: hyperspace34 var(--vel) linear infinite;}
 
 @keyframes hyperspace34{
-    0%{transform: rotate(var(--ang34)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang34)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang34)) translate(0px,33.333vh);
         height: 200px;}
@@ -456,8 +421,7 @@
 .i-35{animation: hyperspace35 var(--vel) linear infinite;}
 
 @keyframes hyperspace35{
-    0%{transform: rotate(var(--ang35)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang35)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang35)) translate(0px,33.333vh);
         height: 200px;}
@@ -469,8 +433,7 @@
 .i-36{animation: hyperspace36 var(--vel) linear infinite;}
 
 @keyframes hyperspace36{
-    0%{transform: rotate(var(--ang36)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang36)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang36)) translate(0px,33.333vh);
         height: 200px;}
@@ -482,8 +445,7 @@
 .i-37{animation: hyperspace37 var(--vel) linear infinite;}
 
 @keyframes hyperspace37{
-    0%{transform: rotate(var(--ang37)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang37)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang37)) translate(0px,33.333vh);
         height: 200px;}
@@ -495,8 +457,7 @@
 .i-38{animation: hyperspace38 var(--vel) linear infinite;}
 
 @keyframes hyperspace38{
-    0%{transform: rotate(var(--ang38)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang38)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang38)) translate(0px,33.333vh);
         height: 200px;}
@@ -508,8 +469,7 @@
 .i-39{animation: hyperspace39 var(--vel) linear infinite;}
 
 @keyframes hyperspace39{
-    0%{transform: rotate(var(--ang39)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang39)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang39)) translate(0px,33.333vh);
         height: 200px;}
@@ -521,8 +481,7 @@
 .i-40{animation: hyperspace40 var(--vel) linear infinite;}
 
 @keyframes hyperspace40{
-    0%{transform: rotate(var(--ang40)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang40)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang40)) translate(0px,33.333vh);
         height: 200px;}
@@ -534,8 +493,7 @@
 .i-41{animation: hyperspace41 var(--vel) linear infinite;}
 
 @keyframes hyperspace41{
-    0%{transform: rotate(var(--ang41)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang41)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang41)) translate(0px,33.333vh);
         height: 200px;}
@@ -547,8 +505,7 @@
 .i-42{animation: hyperspace42 var(--vel) linear infinite;}
 
 @keyframes hyperspace42{
-    0%{transform: rotate(var(--ang42)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang42)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang42)) translate(0px,33.333vh);
         height: 200px;}
@@ -560,8 +517,7 @@
 .i-43{animation: hyperspace43 var(--vel) linear infinite;}
 
 @keyframes hyperspace43{
-    0%{transform: rotate(var(--ang43)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang43)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang43)) translate(0px,33.333vh);
         height: 200px;}
@@ -573,8 +529,7 @@
 .i-44{animation: hyperspace44 var(--vel) linear infinite;}
 
 @keyframes hyperspace44{
-    0%{transform: rotate(var(--ang44)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang44)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang44)) translate(0px,33.333vh);
         height: 200px;}
@@ -586,8 +541,7 @@
 .i-45{animation: hyperspace45 var(--vel) linear infinite;}
 
 @keyframes hyperspace45{
-    0%{transform: rotate(var(--ang45)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang45)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang45)) translate(0px,33.333vh);
         height: 200px;}
@@ -599,8 +553,7 @@
 .i-46{animation: hyperspace46 var(--vel) linear infinite;}
 
 @keyframes hyperspace46{
-    0%{transform: rotate(var(--ang46)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang46)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang46)) translate(0px,33.333vh);
         height: 200px;}
@@ -612,8 +565,7 @@
 .i-47{animation: hyperspace47 var(--vel) linear infinite;}
 
 @keyframes hyperspace47{
-    0%{transform: rotate(var(--ang47)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang47)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang47)) translate(0px,33.333vh);
         height: 200px;}
@@ -625,8 +577,7 @@
 .i-48{animation: hyperspace48 var(--vel) linear infinite;}
 
 @keyframes hyperspace48{
-    0%{transform: rotate(var(--ang48)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang48)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang48)) translate(0px,33.333vh);
         height: 200px;}
@@ -638,8 +589,7 @@
 .i-49{animation: hyperspace49 var(--vel) linear infinite;}
 
 @keyframes hyperspace49{
-    0%{transform: rotate(var(--ang49)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang49)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang49)) translate(0px,33.333vh);
         height: 200px;}
@@ -651,8 +601,7 @@
 .i-50{animation: hyperspace50 var(--vel) linear infinite;}
 
 @keyframes hyperspace50{
-    0%{transform: rotate(var(--ang50)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang50)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang50)) translate(0px,33.333vh);
         height: 200px;}
@@ -664,8 +613,7 @@
 .i-51{animation: hyperspace51 var(--vel) linear infinite;}
 
 @keyframes hyperspace51{
-    0%{transform: rotate(var(--ang51)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang51)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang51)) translate(0px,33.333vh);
         height: 200px;}
@@ -677,8 +625,7 @@
 .i-52{animation: hyperspace52 var(--vel) linear infinite;}
 
 @keyframes hyperspace52{
-    0%{transform: rotate(var(--ang52)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang52)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang52)) translate(0px,33.333vh);
         height: 200px;}
@@ -690,8 +637,7 @@
 .i-53{animation: hyperspace53 var(--vel) linear infinite;}
 
 @keyframes hyperspace53{
-    0%{transform: rotate(var(--ang53)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang53)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang53)) translate(0px,33.333vh);
         height: 200px;}
@@ -703,8 +649,7 @@
 .i-54{animation: hyperspace54 var(--vel) linear infinite;}
 
 @keyframes hyperspace54{
-    0%{transform: rotate(var(--ang54)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang54)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang54)) translate(0px,33.333vh);
         height: 200px;}
@@ -716,8 +661,7 @@
 .i-55{animation: hyperspace55 var(--vel) linear infinite;}
 
 @keyframes hyperspace55{
-    0%{transform: rotate(var(--ang55)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang55)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang55)) translate(0px,33.333vh);
         height: 200px;}
@@ -729,8 +673,7 @@
 .i-56{animation: hyperspace56 var(--vel) linear infinite;}
 
 @keyframes hyperspace56{
-    0%{transform: rotate(var(--ang56)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang56)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang56)) translate(0px,33.333vh);
         height: 200px;}
@@ -742,8 +685,7 @@
 .i-57{animation: hyperspace57 var(--vel) linear infinite;}
 
 @keyframes hyperspace57{
-    0%{transform: rotate(var(--ang57)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang57)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang57)) translate(0px,33.333vh);
         height: 200px;}
@@ -755,8 +697,7 @@
 .i-58{animation: hyperspace58 var(--vel) linear infinite;}
 
 @keyframes hyperspace58{
-    0%{transform: rotate(var(--ang58)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang58)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang58)) translate(0px,33.333vh);
         height: 200px;}
@@ -768,8 +709,7 @@
 .i-59{animation: hyperspace59 var(--vel) linear infinite;}
 
 @keyframes hyperspace59{
-    0%{transform: rotate(var(--ang59)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang59)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang59)) translate(0px,33.333vh);
         height: 200px;}
@@ -781,8 +721,7 @@
 .i-60{animation: hyperspace60 var(--vel) linear infinite;}
 
 @keyframes hyperspace60{
-    0%{transform: rotate(var(--ang60)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang60)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang60)) translate(0px,33.333vh);
         height: 200px;}
@@ -794,8 +733,7 @@
 .i-61{animation: hyperspace61 var(--vel) linear infinite;}
 
 @keyframes hyperspace61{
-    0%{transform: rotate(var(--ang61)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang61)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang61)) translate(0px,33.333vh);
         height: 200px;}
@@ -807,8 +745,7 @@
 .i-62{animation: hyperspace62 var(--vel) linear infinite;}
 
 @keyframes hyperspace62{
-    0%{transform: rotate(var(--ang62)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang62)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang62)) translate(0px,33.333vh);
         height: 200px;}
@@ -820,8 +757,7 @@
 .i-63{animation: hyperspace63 var(--vel) linear infinite;}
 
 @keyframes hyperspace63{
-    0%{transform: rotate(var(--ang63)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang63)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang63)) translate(0px,33.333vh);
         height: 200px;}
@@ -833,8 +769,7 @@
 .i-64{animation: hyperspace64 var(--vel) linear infinite;}
 
 @keyframes hyperspace64{
-    0%{transform: rotate(var(--ang64)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang64)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang64)) translate(0px,33.333vh);
         height: 200px;}
@@ -846,8 +781,7 @@
 .i-65{animation: hyperspace65 var(--vel) linear infinite;}
 
 @keyframes hyperspace65{
-    0%{transform: rotate(var(--ang65)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang65)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang65)) translate(0px,33.333vh);
         height: 200px;}
@@ -859,8 +793,7 @@
 .i-66{animation: hyperspace66 var(--vel) linear infinite;}
 
 @keyframes hyperspace66{
-    0%{transform: rotate(var(--ang66)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang66)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang66)) translate(0px,33.333vh);
         height: 200px;}
@@ -872,8 +805,7 @@
 .i-67{animation: hyperspace67 var(--vel) linear infinite;}
 
 @keyframes hyperspace67{
-    0%{transform: rotate(var(--ang67)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang67)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang67)) translate(0px,33.333vh);
         height: 200px;}
@@ -885,8 +817,7 @@
 .i-68{animation: hyperspace68 var(--vel) linear infinite;}
 
 @keyframes hyperspace68{
-    0%{transform: rotate(var(--ang68)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang68)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang68)) translate(0px,33.333vh);
         height: 200px;}
@@ -898,8 +829,7 @@
 .i-69{animation: hyperspace69 var(--vel) linear infinite;}
 
 @keyframes hyperspace69{
-    0%{transform: rotate(var(--ang69)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang69)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang69)) translate(0px,33.333vh);
         height: 200px;}
@@ -911,8 +841,7 @@
 .i-70{animation: hyperspace70 var(--vel) linear infinite;}
 
 @keyframes hyperspace70{
-    0%{transform: rotate(var(--ang70)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang70)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang70)) translate(0px,33.333vh);
         height: 200px;}
@@ -924,8 +853,7 @@
 .i-71{animation: hyperspace71 var(--vel) linear infinite;}
 
 @keyframes hyperspace71{
-    0%{transform: rotate(var(--ang71)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang71)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang71)) translate(0px,33.333vh);
         height: 200px;}
@@ -937,8 +865,7 @@
 .i-72{animation: hyperspace72 var(--vel) linear infinite;}
 
 @keyframes hyperspace72{
-    0%{transform: rotate(var(--ang72)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang72)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang72)) translate(0px,33.333vh);
         height: 200px;}
@@ -950,8 +877,7 @@
 .i-73{animation: hyperspace73 var(--vel) linear infinite;}
 
 @keyframes hyperspace73{
-    0%{transform: rotate(var(--ang73)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang73)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang73)) translate(0px,33.333vh);
         height: 200px;}
@@ -963,8 +889,7 @@
 .i-74{animation: hyperspace74 var(--vel) linear infinite;}
 
 @keyframes hyperspace74{
-    0%{transform: rotate(var(--ang74)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang74)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang74)) translate(0px,33.333vh);
         height: 200px;}
@@ -976,8 +901,7 @@
 .i-75{animation: hyperspace75 var(--vel) linear infinite;}
 
 @keyframes hyperspace75{
-    0%{transform: rotate(var(--ang75)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang75)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang75)) translate(0px,33.333vh);
         height: 200px;}
@@ -989,8 +913,7 @@
 .i-76{animation: hyperspace76 var(--vel) linear infinite;}
 
 @keyframes hyperspace76{
-    0%{transform: rotate(var(--ang76)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang76)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang76)) translate(0px,33.333vh);
         height: 200px;}
@@ -1002,8 +925,7 @@
 .i-77{animation: hyperspace77 var(--vel) linear infinite;}
 
 @keyframes hyperspace77{
-    0%{transform: rotate(var(--ang77)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang77)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang77)) translate(0px,33.333vh);
         height: 200px;}
@@ -1015,8 +937,7 @@
 .i-78{animation: hyperspace78 var(--vel) linear infinite;}
 
 @keyframes hyperspace78{
-    0%{transform: rotate(var(--ang78)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang78)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang78)) translate(0px,33.333vh);
         height: 200px;}
@@ -1028,8 +949,7 @@
 .i-79{animation: hyperspace79 var(--vel) linear infinite;}
 
 @keyframes hyperspace79{
-    0%{transform: rotate(var(--ang79)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang79)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang79)) translate(0px,33.333vh);
         height: 200px;}
@@ -1041,8 +961,7 @@
 .i-80{animation: hyperspace80 var(--vel) linear infinite;}
 
 @keyframes hyperspace80{
-    0%{transform: rotate(var(--ang80)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang80)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang80)) translate(0px,33.333vh);
         height: 200px;}
@@ -1054,8 +973,7 @@
 .i-81{animation: hyperspace81 var(--vel) linear infinite;}
 
 @keyframes hyperspace81{
-    0%{transform: rotate(var(--ang81)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang81)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang81)) translate(0px,33.333vh);
         height: 200px;}
@@ -1067,8 +985,7 @@
 .i-82{animation: hyperspace82 var(--vel) linear infinite;}
 
 @keyframes hyperspace82{
-    0%{transform: rotate(var(--ang82)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang82)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang82)) translate(0px,33.333vh);
         height: 200px;}
@@ -1080,8 +997,7 @@
 .i-83{animation: hyperspace83 var(--vel) linear infinite;}
 
 @keyframes hyperspace83{
-    0%{transform: rotate(var(--ang83)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang83)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang83)) translate(0px,33.333vh);
         height: 200px;}
@@ -1093,8 +1009,7 @@
 .i-84{animation: hyperspace84 var(--vel) linear infinite;}
 
 @keyframes hyperspace84{
-    0%{transform: rotate(var(--ang84)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang84)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang84)) translate(0px,33.333vh);
         height: 200px;}
@@ -1106,8 +1021,7 @@
 .i-85{animation: hyperspace85 var(--vel) linear infinite;}
 
 @keyframes hyperspace85{
-    0%{transform: rotate(var(--ang85)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang85)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang85)) translate(0px,33.333vh);
         height: 200px;}
@@ -1119,8 +1033,7 @@
 .i-86{animation: hyperspace86 var(--vel) linear infinite;}
 
 @keyframes hyperspace86{
-    0%{transform: rotate(var(--ang86)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang86)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang86)) translate(0px,33.333vh);
         height: 200px;}
@@ -1132,8 +1045,7 @@
 .i-87{animation: hyperspace87 var(--vel) linear infinite;}
 
 @keyframes hyperspace87{
-    0%{transform: rotate(var(--ang87)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang87)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang87)) translate(0px,33.333vh);
         height: 200px;}
@@ -1145,8 +1057,7 @@
 .i-88{animation: hyperspace88 var(--vel) linear infinite;}
 
 @keyframes hyperspace88{
-    0%{transform: rotate(var(--ang88)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang88)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang88)) translate(0px,33.333vh);
         height: 200px;}
@@ -1158,8 +1069,7 @@
 .i-89{animation: hyperspace89 var(--vel) linear infinite;}
 
 @keyframes hyperspace89{
-    0%{transform: rotate(var(--ang89)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang89)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang89)) translate(0px,33.333vh);
         height: 200px;}
@@ -1171,8 +1081,7 @@
 .i-90{animation: hyperspace90 var(--vel) linear infinite;}
 
 @keyframes hyperspace90{
-    0%{transform: rotate(var(--ang90)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang90)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang90)) translate(0px,33.333vh);
         height: 200px;}
@@ -1184,8 +1093,7 @@
 .i-91{animation: hyperspace91 var(--vel) linear infinite;}
 
 @keyframes hyperspace91{
-    0%{transform: rotate(var(--ang91)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang91)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang91)) translate(0px,33.333vh);
         height: 200px;}
@@ -1197,8 +1105,7 @@
 .i-92{animation: hyperspace92 var(--vel) linear infinite;}
 
 @keyframes hyperspace92{
-    0%{transform: rotate(var(--ang92)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang92)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang92)) translate(0px,33.333vh);
         height: 200px;}
@@ -1210,8 +1117,7 @@
 .i-93{animation: hyperspace93 var(--vel) linear infinite;}
 
 @keyframes hyperspace93{
-    0%{transform: rotate(var(--ang93)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang93)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang93)) translate(0px,33.333vh);
         height: 200px;}
@@ -1223,8 +1129,7 @@
 .i-94{animation: hyperspace94 var(--vel) linear infinite;}
 
 @keyframes hyperspace94{
-    0%{transform: rotate(var(--ang94)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang94)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang94)) translate(0px,33.333vh);
         height: 200px;}
@@ -1236,8 +1141,7 @@
 .i-95{animation: hyperspace95 var(--vel) linear infinite;}
 
 @keyframes hyperspace95{
-    0%{transform: rotate(var(--ang95)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang95)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang95)) translate(0px,33.333vh);
         height: 200px;}
@@ -1249,8 +1153,7 @@
 .i-96{animation: hyperspace96 var(--vel) linear infinite;}
 
 @keyframes hyperspace96{
-    0%{transform: rotate(var(--ang96)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang96)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang96)) translate(0px,33.333vh);
         height: 200px;}
@@ -1262,8 +1165,7 @@
 .i-97{animation: hyperspace97 var(--vel) linear infinite;}
 
 @keyframes hyperspace97{
-    0%{transform: rotate(var(--ang97)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang97)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang97)) translate(0px,33.333vh);
         height: 200px;}
@@ -1275,8 +1177,7 @@
 .i-98{animation: hyperspace98 var(--vel) linear infinite;}
 
 @keyframes hyperspace98{
-    0%{transform: rotate(var(--ang98)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang98)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang98)) translate(0px,33.333vh);
         height: 200px;}
@@ -1288,8 +1189,7 @@
 .i-99{animation: hyperspace99 var(--vel) linear infinite;}
 
 @keyframes hyperspace99{
-    0%{transform: rotate(var(--ang99)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang99)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang99)) translate(0px,33.333vh);
         height: 200px;}
@@ -1301,8 +1201,7 @@
 .i-100{animation: hyperspace100 var(--vel) linear infinite;}
 
 @keyframes hyperspace100{
-    0%{transform: rotate(var(--ang100)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang100)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang100)) translate(0px,33.333vh);
         height: 200px;}
@@ -1314,8 +1213,7 @@
 .i-101{animation: hyperspace101 var(--vel) linear infinite;}
 
 @keyframes hyperspace101{
-    0%{transform: rotate(var(--ang101)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang101)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang101)) translate(0px,33.333vh);
         height: 200px;}
@@ -1327,8 +1225,7 @@
 .i-102{animation: hyperspace102 var(--vel) linear infinite;}
 
 @keyframes hyperspace102{
-    0%{transform: rotate(var(--ang102)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang102)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang102)) translate(0px,33.333vh);
         height: 200px;}
@@ -1340,8 +1237,7 @@
 .i-103{animation: hyperspace103 var(--vel) linear infinite;}
 
 @keyframes hyperspace103{
-    0%{transform: rotate(var(--ang103)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang103)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang103)) translate(0px,33.333vh);
         height: 200px;}
@@ -1353,8 +1249,7 @@
 .i-104{animation: hyperspace104 var(--vel) linear infinite;}
 
 @keyframes hyperspace104{
-    0%{transform: rotate(var(--ang104)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang104)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang104)) translate(0px,33.333vh);
         height: 200px;}
@@ -1366,8 +1261,7 @@
 .i-105{animation: hyperspace105 var(--vel) linear infinite;}
 
 @keyframes hyperspace105{
-    0%{transform: rotate(var(--ang105)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang105)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang105)) translate(0px,33.333vh);
         height: 200px;}
@@ -1379,8 +1273,7 @@
 .i-106{animation: hyperspace106 var(--vel) linear infinite;}
 
 @keyframes hyperspace106{
-    0%{transform: rotate(var(--ang106)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang106)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang106)) translate(0px,33.333vh);
         height: 200px;}
@@ -1392,8 +1285,7 @@
 .i-107{animation: hyperspace107 var(--vel) linear infinite;}
 
 @keyframes hyperspace107{
-    0%{transform: rotate(var(--ang107)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang107)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang107)) translate(0px,33.333vh);
         height: 200px;}
@@ -1405,8 +1297,7 @@
 .i-108{animation: hyperspace108 var(--vel) linear infinite;}
 
 @keyframes hyperspace108{
-    0%{transform: rotate(var(--ang108)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang108)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang108)) translate(0px,33.333vh);
         height: 200px;}
@@ -1418,8 +1309,7 @@
 .i-109{animation: hyperspace109 var(--vel) linear infinite;}
 
 @keyframes hyperspace109{
-    0%{transform: rotate(var(--ang109)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang109)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang109)) translate(0px,33.333vh);
         height: 200px;}
@@ -1431,8 +1321,7 @@
 .i-110{animation: hyperspace110 var(--vel) linear infinite;}
 
 @keyframes hyperspace110{
-    0%{transform: rotate(var(--ang110)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang110)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang110)) translate(0px,33.333vh);
         height: 200px;}
@@ -1444,8 +1333,7 @@
 .i-111{animation: hyperspace111 var(--vel) linear infinite;}
 
 @keyframes hyperspace111{
-    0%{transform: rotate(var(--ang111)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang111)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang111)) translate(0px,33.333vh);
         height: 200px;}
@@ -1457,8 +1345,7 @@
 .i-112{animation: hyperspace112 var(--vel) linear infinite;}
 
 @keyframes hyperspace112{
-    0%{transform: rotate(var(--ang112)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang112)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang112)) translate(0px,33.333vh);
         height: 200px;}
@@ -1470,8 +1357,7 @@
 .i-113{animation: hyperspace113 var(--vel) linear infinite;}
 
 @keyframes hyperspace113{
-    0%{transform: rotate(var(--ang113)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang113)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang113)) translate(0px,33.333vh);
         height: 200px;}
@@ -1483,8 +1369,7 @@
 .i-114{animation: hyperspace114 var(--vel) linear infinite;}
 
 @keyframes hyperspace114{
-    0%{transform: rotate(var(--ang114)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang114)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang114)) translate(0px,33.333vh);
         height: 200px;}
@@ -1496,8 +1381,7 @@
 .i-115{animation: hyperspace115 var(--vel) linear infinite;}
 
 @keyframes hyperspace115{
-    0%{transform: rotate(var(--ang115)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang115)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang115)) translate(0px,33.333vh);
         height: 200px;}
@@ -1509,8 +1393,7 @@
 .i-116{animation: hyperspace116 var(--vel) linear infinite;}
 
 @keyframes hyperspace116{
-    0%{transform: rotate(var(--ang116)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang116)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang116)) translate(0px,33.333vh);
         height: 200px;}
@@ -1522,8 +1405,7 @@
 .i-117{animation: hyperspace117 var(--vel) linear infinite;}
 
 @keyframes hyperspace117{
-    0%{transform: rotate(var(--ang117)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang117)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang117)) translate(0px,33.333vh);
         height: 200px;}
@@ -1535,8 +1417,7 @@
 .i-118{animation: hyperspace118 var(--vel) linear infinite;}
 
 @keyframes hyperspace118{
-    0%{transform: rotate(var(--ang118)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang118)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang118)) translate(0px,33.333vh);
         height: 200px;}
@@ -1548,8 +1429,7 @@
 .i-119{animation: hyperspace119 var(--vel) linear infinite;}
 
 @keyframes hyperspace119{
-    0%{transform: rotate(var(--ang119)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang119)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang119)) translate(0px,33.333vh);
         height: 200px;}
@@ -1561,8 +1441,7 @@
 .i-120{animation: hyperspace120 var(--vel) linear infinite;}
 
 @keyframes hyperspace120{
-    0%{transform: rotate(var(--ang120)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang120)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang120)) translate(0px,33.333vh);
         height: 200px;}
@@ -1574,8 +1453,7 @@
 .i-121{animation: hyperspace121 var(--vel) linear infinite;}
 
 @keyframes hyperspace121{
-    0%{transform: rotate(var(--ang121)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang121)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang121)) translate(0px,33.333vh);
         height: 200px;}
@@ -1587,8 +1465,7 @@
 .i-122{animation: hyperspace122 var(--vel) linear infinite;}
 
 @keyframes hyperspace122{
-    0%{transform: rotate(var(--ang122)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang122)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang122)) translate(0px,33.333vh);
         height: 200px;}
@@ -1600,8 +1477,7 @@
 .i-123{animation: hyperspace123 var(--vel) linear infinite;}
 
 @keyframes hyperspace123{
-    0%{transform: rotate(var(--ang123)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang123)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang123)) translate(0px,33.333vh);
         height: 200px;}
@@ -1613,8 +1489,7 @@
 .i-124{animation: hyperspace124 var(--vel) linear infinite;}
 
 @keyframes hyperspace124{
-    0%{transform: rotate(var(--ang124)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang124)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang124)) translate(0px,33.333vh);
         height: 200px;}
@@ -1626,8 +1501,7 @@
 .i-125{animation: hyperspace125 var(--vel) linear infinite;}
 
 @keyframes hyperspace125{
-    0%{transform: rotate(var(--ang125)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang125)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang125)) translate(0px,33.333vh);
         height: 200px;}
@@ -1639,8 +1513,7 @@
 .i-126{animation: hyperspace126 var(--vel) linear infinite;}
 
 @keyframes hyperspace126{
-    0%{transform: rotate(var(--ang126)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang126)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang126)) translate(0px,33.333vh);
         height: 200px;}
@@ -1652,8 +1525,7 @@
 .i-127{animation: hyperspace127 var(--vel) linear infinite;}
 
 @keyframes hyperspace127{
-    0%{transform: rotate(var(--ang127)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang127)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang127)) translate(0px,33.333vh);
         height: 200px;}
@@ -1665,8 +1537,7 @@
 .i-128{animation: hyperspace128 var(--vel) linear infinite;}
 
 @keyframes hyperspace128{
-    0%{transform: rotate(var(--ang128)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang128)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang128)) translate(0px,33.333vh);
         height: 200px;}
@@ -1678,8 +1549,7 @@
 .i-129{animation: hyperspace129 var(--vel) linear infinite;}
 
 @keyframes hyperspace129{
-    0%{transform: rotate(var(--ang129)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang129)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang129)) translate(0px,33.333vh);
         height: 200px;}
@@ -1691,8 +1561,7 @@
 .i-130{animation: hyperspace130 var(--vel) linear infinite;}
 
 @keyframes hyperspace130{
-    0%{transform: rotate(var(--ang130)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang130)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang130)) translate(0px,33.333vh);
         height: 200px;}
@@ -1704,8 +1573,7 @@
 .i-131{animation: hyperspace131 var(--vel) linear infinite;}
 
 @keyframes hyperspace131{
-    0%{transform: rotate(var(--ang131)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang131)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang131)) translate(0px,33.333vh);
         height: 200px;}
@@ -1717,8 +1585,7 @@
 .i-132{animation: hyperspace132 var(--vel) linear infinite;}
 
 @keyframes hyperspace132{
-    0%{transform: rotate(var(--ang132)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang132)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang132)) translate(0px,33.333vh);
         height: 200px;}
@@ -1730,8 +1597,7 @@
 .i-133{animation: hyperspace133 var(--vel) linear infinite;}
 
 @keyframes hyperspace133{
-    0%{transform: rotate(var(--ang133)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang133)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang133)) translate(0px,33.333vh);
         height: 200px;}
@@ -1743,8 +1609,7 @@
 .i-134{animation: hyperspace134 var(--vel) linear infinite;}
 
 @keyframes hyperspace134{
-    0%{transform: rotate(var(--ang134)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang134)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang134)) translate(0px,33.333vh);
         height: 200px;}
@@ -1756,8 +1621,7 @@
 .i-135{animation: hyperspace135 var(--vel) linear infinite;}
 
 @keyframes hyperspace135{
-    0%{transform: rotate(var(--ang135)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang135)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang135)) translate(0px,33.333vh);
         height: 200px;}
@@ -1769,8 +1633,7 @@
 .i-136{animation: hyperspace136 var(--vel) linear infinite;}
 
 @keyframes hyperspace136{
-    0%{transform: rotate(var(--ang136)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang136)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang136)) translate(0px,33.333vh);
         height: 200px;}
@@ -1782,8 +1645,7 @@
 .i-137{animation: hyperspace137 var(--vel) linear infinite;}
 
 @keyframes hyperspace137{
-    0%{transform: rotate(var(--ang137)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang137)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang137)) translate(0px,33.333vh);
         height: 200px;}
@@ -1795,8 +1657,7 @@
 .i-138{animation: hyperspace138 var(--vel) linear infinite;}
 
 @keyframes hyperspace138{
-    0%{transform: rotate(var(--ang138)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang138)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang138)) translate(0px,33.333vh);
         height: 200px;}
@@ -1808,8 +1669,7 @@
 .i-139{animation: hyperspace139 var(--vel) linear infinite;}
 
 @keyframes hyperspace139{
-    0%{transform: rotate(var(--ang139)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang139)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang139)) translate(0px,33.333vh);
         height: 200px;}
@@ -1821,8 +1681,7 @@
 .i-140{animation: hyperspace140 var(--vel) linear infinite;}
 
 @keyframes hyperspace140{
-    0%{transform: rotate(var(--ang140)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang140)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang140)) translate(0px,33.333vh);
         height: 200px;}
@@ -1834,8 +1693,7 @@
 .i-141{animation: hyperspace141 var(--vel) linear infinite;}
 
 @keyframes hyperspace141{
-    0%{transform: rotate(var(--ang141)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang141)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang141)) translate(0px,33.333vh);
         height: 200px;}
@@ -1847,8 +1705,7 @@
 .i-142{animation: hyperspace142 var(--vel) linear infinite;}
 
 @keyframes hyperspace142{
-    0%{transform: rotate(var(--ang142)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang142)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang142)) translate(0px,33.333vh);
         height: 200px;}
@@ -1860,8 +1717,7 @@
 .i-143{animation: hyperspace143 var(--vel) linear infinite;}
 
 @keyframes hyperspace143{
-    0%{transform: rotate(var(--ang143)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang143)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang143)) translate(0px,33.333vh);
         height: 200px;}
@@ -1873,8 +1729,7 @@
 .i-144{animation: hyperspace144 var(--vel) linear infinite;}
 
 @keyframes hyperspace144{
-    0%{transform: rotate(var(--ang144)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang144)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang144)) translate(0px,33.333vh);
         height: 200px;}
@@ -1886,8 +1741,7 @@
 .i-145{animation: hyperspace145 var(--vel) linear infinite;}
 
 @keyframes hyperspace145{
-    0%{transform: rotate(var(--ang145)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang145)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang145)) translate(0px,33.333vh);
         height: 200px;}
@@ -1899,8 +1753,7 @@
 .i-146{animation: hyperspace146 var(--vel) linear infinite;}
 
 @keyframes hyperspace146{
-    0%{transform: rotate(var(--ang146)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang146)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang146)) translate(0px,33.333vh);
         height: 200px;}
@@ -1912,8 +1765,7 @@
 .i-147{animation: hyperspace147 var(--vel) linear infinite;}
 
 @keyframes hyperspace147{
-    0%{transform: rotate(var(--ang147)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang147)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang147)) translate(0px,33.333vh);
         height: 200px;}
@@ -1925,8 +1777,7 @@
 .i-148{animation: hyperspace148 var(--vel) linear infinite;}
 
 @keyframes hyperspace148{
-    0%{transform: rotate(var(--ang148)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang148)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang148)) translate(0px,33.333vh);
         height: 200px;}
@@ -1938,8 +1789,7 @@
 .i-149{animation: hyperspace149 var(--vel) linear infinite;}
 
 @keyframes hyperspace149{
-    0%{transform: rotate(var(--ang149)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang149)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang149)) translate(0px,33.333vh);
         height: 200px;}
@@ -1951,8 +1801,7 @@
 .i-150{animation: hyperspace150 var(--vel) linear infinite;}
 
 @keyframes hyperspace150{
-    0%{transform: rotate(var(--ang150)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang150)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang150)) translate(0px,33.333vh);
         height: 200px;}
@@ -1964,8 +1813,7 @@
 .i-151{animation: hyperspace151 var(--vel) linear infinite;}
 
 @keyframes hyperspace151{
-    0%{transform: rotate(var(--ang151)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang151)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang151)) translate(0px,33.333vh);
         height: 200px;}
@@ -1977,8 +1825,7 @@
 .i-152{animation: hyperspace152 var(--vel) linear infinite;}
 
 @keyframes hyperspace152{
-    0%{transform: rotate(var(--ang152)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang152)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang152)) translate(0px,33.333vh);
         height: 200px;}
@@ -1990,8 +1837,7 @@
 .i-153{animation: hyperspace153 var(--vel) linear infinite;}
 
 @keyframes hyperspace153{
-    0%{transform: rotate(var(--ang153)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang153)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang153)) translate(0px,33.333vh);
         height: 200px;}
@@ -2003,8 +1849,7 @@
 .i-154{animation: hyperspace154 var(--vel) linear infinite;}
 
 @keyframes hyperspace154{
-    0%{transform: rotate(var(--ang154)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang154)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang154)) translate(0px,33.333vh);
         height: 200px;}
@@ -2016,8 +1861,7 @@
 .i-155{animation: hyperspace155 var(--vel) linear infinite;}
 
 @keyframes hyperspace155{
-    0%{transform: rotate(var(--ang155)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang155)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang155)) translate(0px,33.333vh);
         height: 200px;}
@@ -2029,8 +1873,7 @@
 .i-156{animation: hyperspace156 var(--vel) linear infinite;}
 
 @keyframes hyperspace156{
-    0%{transform: rotate(var(--ang156)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang156)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang156)) translate(0px,33.333vh);
         height: 200px;}
@@ -2042,8 +1885,7 @@
 .i-157{animation: hyperspace157 var(--vel) linear infinite;}
 
 @keyframes hyperspace157{
-    0%{transform: rotate(var(--ang157)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang157)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang157)) translate(0px,33.333vh);
         height: 200px;}
@@ -2055,8 +1897,7 @@
 .i-158{animation: hyperspace158 var(--vel) linear infinite;}
 
 @keyframes hyperspace158{
-    0%{transform: rotate(var(--ang158)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang158)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang158)) translate(0px,33.333vh);
         height: 200px;}
@@ -2068,8 +1909,7 @@
 .i-159{animation: hyperspace159 var(--vel) linear infinite;}
 
 @keyframes hyperspace159{
-    0%{transform: rotate(var(--ang159)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang159)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang159)) translate(0px,33.333vh);
         height: 200px;}
@@ -2081,8 +1921,7 @@
 .i-160{animation: hyperspace160 var(--vel) linear infinite;}
 
 @keyframes hyperspace160{
-    0%{transform: rotate(var(--ang160)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang160)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang160)) translate(0px,33.333vh);
         height: 200px;}
@@ -2094,8 +1933,7 @@
 .i-161{animation: hyperspace161 var(--vel) linear infinite;}
 
 @keyframes hyperspace161{
-    0%{transform: rotate(var(--ang161)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang161)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang161)) translate(0px,33.333vh);
         height: 200px;}
@@ -2107,8 +1945,7 @@
 .i-162{animation: hyperspace162 var(--vel) linear infinite;}
 
 @keyframes hyperspace162{
-    0%{transform: rotate(var(--ang162)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang162)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang162)) translate(0px,33.333vh);
         height: 200px;}
@@ -2120,8 +1957,7 @@
 .i-163{animation: hyperspace163 var(--vel) linear infinite;}
 
 @keyframes hyperspace163{
-    0%{transform: rotate(var(--ang163)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang163)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang163)) translate(0px,33.333vh);
         height: 200px;}
@@ -2133,8 +1969,7 @@
 .i-164{animation: hyperspace164 var(--vel) linear infinite;}
 
 @keyframes hyperspace164{
-    0%{transform: rotate(var(--ang164)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang164)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang164)) translate(0px,33.333vh);
         height: 200px;}
@@ -2146,8 +1981,7 @@
 .i-165{animation: hyperspace165 var(--vel) linear infinite;}
 
 @keyframes hyperspace165{
-    0%{transform: rotate(var(--ang165)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang165)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang165)) translate(0px,33.333vh);
         height: 200px;}
@@ -2159,8 +1993,7 @@
 .i-166{animation: hyperspace166 var(--vel) linear infinite;}
 
 @keyframes hyperspace166{
-    0%{transform: rotate(var(--ang166)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang166)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang166)) translate(0px,33.333vh);
         height: 200px;}
@@ -2172,8 +2005,7 @@
 .i-167{animation: hyperspace167 var(--vel) linear infinite;}
 
 @keyframes hyperspace167{
-    0%{transform: rotate(var(--ang167)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang167)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang167)) translate(0px,33.333vh);
         height: 200px;}
@@ -2185,8 +2017,7 @@
 .i-168{animation: hyperspace168 var(--vel) linear infinite;}
 
 @keyframes hyperspace168{
-    0%{transform: rotate(var(--ang168)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang168)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang168)) translate(0px,33.333vh);
         height: 200px;}
@@ -2198,8 +2029,7 @@
 .i-169{animation: hyperspace169 var(--vel) linear infinite;}
 
 @keyframes hyperspace169{
-    0%{transform: rotate(var(--ang169)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang169)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang169)) translate(0px,33.333vh);
         height: 200px;}
@@ -2211,8 +2041,7 @@
 .i-170{animation: hyperspace170 var(--vel) linear infinite;}
 
 @keyframes hyperspace170{
-    0%{transform: rotate(var(--ang170)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang170)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang170)) translate(0px,33.333vh);
         height: 200px;}
@@ -2224,8 +2053,7 @@
 .i-171{animation: hyperspace171 var(--vel) linear infinite;}
 
 @keyframes hyperspace171{
-    0%{transform: rotate(var(--ang171)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang171)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang171)) translate(0px,33.333vh);
         height: 200px;}
@@ -2237,8 +2065,7 @@
 .i-172{animation: hyperspace172 var(--vel) linear infinite;}
 
 @keyframes hyperspace172{
-    0%{transform: rotate(var(--ang172)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang172)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang172)) translate(0px,33.333vh);
         height: 200px;}
@@ -2250,8 +2077,7 @@
 .i-173{animation: hyperspace173 var(--vel) linear infinite;}
 
 @keyframes hyperspace173{
-    0%{transform: rotate(var(--ang173)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang173)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang173)) translate(0px,33.333vh);
         height: 200px;}
@@ -2263,8 +2089,7 @@
 .i-174{animation: hyperspace174 var(--vel) linear infinite;}
 
 @keyframes hyperspace174{
-    0%{transform: rotate(var(--ang174)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang174)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang174)) translate(0px,33.333vh);
         height: 200px;}
@@ -2276,8 +2101,7 @@
 .i-175{animation: hyperspace175 var(--vel) linear infinite;}
 
 @keyframes hyperspace175{
-    0%{transform: rotate(var(--ang175)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang175)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang175)) translate(0px,33.333vh);
         height: 200px;}
@@ -2289,8 +2113,7 @@
 .i-176{animation: hyperspace176 var(--vel) linear infinite;}
 
 @keyframes hyperspace176{
-    0%{transform: rotate(var(--ang176)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang176)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang176)) translate(0px,33.333vh);
         height: 200px;}
@@ -2302,8 +2125,7 @@
 .i-177{animation: hyperspace177 var(--vel) linear infinite;}
 
 @keyframes hyperspace177{
-    0%{transform: rotate(var(--ang177)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang177)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang177)) translate(0px,33.333vh);
         height: 200px;}
@@ -2315,8 +2137,7 @@
 .i-178{animation: hyperspace178 var(--vel) linear infinite;}
 
 @keyframes hyperspace178{
-    0%{transform: rotate(var(--ang178)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang178)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang178)) translate(0px,33.333vh);
         height: 200px;}
@@ -2328,8 +2149,7 @@
 .i-179{animation: hyperspace179 var(--vel) linear infinite;}
 
 @keyframes hyperspace179{
-    0%{transform: rotate(var(--ang179)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang179)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang179)) translate(0px,33.333vh);
         height: 200px;}
@@ -2341,8 +2161,7 @@
 .i-180{animation: hyperspace180 var(--vel) linear infinite;}
 
 @keyframes hyperspace180{
-    0%{transform: rotate(var(--ang180)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang180)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang180)) translate(0px,33.333vh);
         height: 200px;}
@@ -2354,8 +2173,7 @@
 .i-181{animation: hyperspace181 var(--vel) linear infinite;}
 
 @keyframes hyperspace181{
-    0%{transform: rotate(var(--ang181)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang181)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang181)) translate(0px,33.333vh);
         height: 200px;}
@@ -2367,8 +2185,7 @@
 .i-182{animation: hyperspace182 var(--vel) linear infinite;}
 
 @keyframes hyperspace182{
-    0%{transform: rotate(var(--ang182)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang182)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang182)) translate(0px,33.333vh);
         height: 200px;}
@@ -2380,8 +2197,7 @@
 .i-183{animation: hyperspace183 var(--vel) linear infinite;}
 
 @keyframes hyperspace183{
-    0%{transform: rotate(var(--ang183)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang183)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang183)) translate(0px,33.333vh);
         height: 200px;}
@@ -2393,8 +2209,7 @@
 .i-184{animation: hyperspace184 var(--vel) linear infinite;}
 
 @keyframes hyperspace184{
-    0%{transform: rotate(var(--ang184)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang184)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang184)) translate(0px,33.333vh);
         height: 200px;}
@@ -2406,8 +2221,7 @@
 .i-185{animation: hyperspace185 var(--vel) linear infinite;}
 
 @keyframes hyperspace185{
-    0%{transform: rotate(var(--ang185)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang185)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang185)) translate(0px,33.333vh);
         height: 200px;}
@@ -2419,8 +2233,7 @@
 .i-186{animation: hyperspace186 var(--vel) linear infinite;}
 
 @keyframes hyperspace186{
-    0%{transform: rotate(var(--ang186)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang186)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang186)) translate(0px,33.333vh);
         height: 200px;}
@@ -2432,8 +2245,7 @@
 .i-187{animation: hyperspace187 var(--vel) linear infinite;}
 
 @keyframes hyperspace187{
-    0%{transform: rotate(var(--ang187)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang187)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang187)) translate(0px,33.333vh);
         height: 200px;}
@@ -2445,8 +2257,7 @@
 .i-188{animation: hyperspace188 var(--vel) linear infinite;}
 
 @keyframes hyperspace188{
-    0%{transform: rotate(var(--ang188)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang188)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang188)) translate(0px,33.333vh);
         height: 200px;}
@@ -2458,8 +2269,7 @@
 .i-189{animation: hyperspace189 var(--vel) linear infinite;}
 
 @keyframes hyperspace189{
-    0%{transform: rotate(var(--ang189)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang189)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang189)) translate(0px,33.333vh);
         height: 200px;}
@@ -2471,8 +2281,7 @@
 .i-190{animation: hyperspace190 var(--vel) linear infinite;}
 
 @keyframes hyperspace190{
-    0%{transform: rotate(var(--ang190)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang190)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang190)) translate(0px,33.333vh);
         height: 200px;}
@@ -2484,8 +2293,7 @@
 .i-191{animation: hyperspace191 var(--vel) linear infinite;}
 
 @keyframes hyperspace191{
-    0%{transform: rotate(var(--ang191)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang191)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang191)) translate(0px,33.333vh);
         height: 200px;}
@@ -2497,8 +2305,7 @@
 .i-192{animation: hyperspace192 var(--vel) linear infinite;}
 
 @keyframes hyperspace192{
-    0%{transform: rotate(var(--ang192)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang192)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang192)) translate(0px,33.333vh);
         height: 200px;}
@@ -2510,8 +2317,7 @@
 .i-193{animation: hyperspace193 var(--vel) linear infinite;}
 
 @keyframes hyperspace193{
-    0%{transform: rotate(var(--ang193)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang193)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang193)) translate(0px,33.333vh);
         height: 200px;}
@@ -2523,8 +2329,7 @@
 .i-194{animation: hyperspace194 var(--vel) linear infinite;}
 
 @keyframes hyperspace194{
-    0%{transform: rotate(var(--ang194)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang194)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang194)) translate(0px,33.333vh);
         height: 200px;}
@@ -2536,8 +2341,7 @@
 .i-195{animation: hyperspace195 var(--vel) linear infinite;}
 
 @keyframes hyperspace195{
-    0%{transform: rotate(var(--ang195)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang195)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang195)) translate(0px,33.333vh);
         height: 200px;}
@@ -2549,8 +2353,7 @@
 .i-196{animation: hyperspace196 var(--vel) linear infinite;}
 
 @keyframes hyperspace196{
-    0%{transform: rotate(var(--ang196)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang196)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang196)) translate(0px,33.333vh);
         height: 200px;}
@@ -2562,8 +2365,7 @@
 .i-197{animation: hyperspace197 var(--vel) linear infinite;}
 
 @keyframes hyperspace197{
-    0%{transform: rotate(var(--ang197)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang197)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang197)) translate(0px,33.333vh);
         height: 200px;}
@@ -2575,8 +2377,7 @@
 .i-198{animation: hyperspace198 var(--vel) linear infinite;}
 
 @keyframes hyperspace198{
-    0%{transform: rotate(var(--ang198)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang198)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang198)) translate(0px,33.333vh);
         height: 200px;}
@@ -2588,8 +2389,7 @@
 .i-199{animation: hyperspace199 var(--vel) linear infinite;}
 
 @keyframes hyperspace199{
-    0%{transform: rotate(var(--ang199)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang199)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang199)) translate(0px,33.333vh);
         height: 200px;}
@@ -2601,8 +2401,7 @@
 .i-200{animation: hyperspace200 var(--vel) linear infinite;}
 
 @keyframes hyperspace200{
-    0%{transform: rotate(var(--ang200)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang200)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang200)) translate(0px,33.333vh);
         height: 200px;}
@@ -2614,8 +2413,7 @@
 .i-201{animation: hyperspace201 var(--vel) linear infinite;}
 
 @keyframes hyperspace201{
-    0%{transform: rotate(var(--ang201)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang201)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang201)) translate(0px,33.333vh);
         height: 200px;}
@@ -2627,8 +2425,7 @@
 .i-202{animation: hyperspace202 var(--vel) linear infinite;}
 
 @keyframes hyperspace202{
-    0%{transform: rotate(var(--ang202)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang202)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang202)) translate(0px,33.333vh);
         height: 200px;}
@@ -2640,8 +2437,7 @@
 .i-203{animation: hyperspace203 var(--vel) linear infinite;}
 
 @keyframes hyperspace203{
-    0%{transform: rotate(var(--ang203)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang203)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang203)) translate(0px,33.333vh);
         height: 200px;}
@@ -2653,8 +2449,7 @@
 .i-204{animation: hyperspace204 var(--vel) linear infinite;}
 
 @keyframes hyperspace204{
-    0%{transform: rotate(var(--ang204)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang204)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang204)) translate(0px,33.333vh);
         height: 200px;}
@@ -2666,8 +2461,7 @@
 .i-205{animation: hyperspace205 var(--vel) linear infinite;}
 
 @keyframes hyperspace205{
-    0%{transform: rotate(var(--ang205)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang205)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang205)) translate(0px,33.333vh);
         height: 200px;}
@@ -2679,8 +2473,7 @@
 .i-206{animation: hyperspace206 var(--vel) linear infinite;}
 
 @keyframes hyperspace206{
-    0%{transform: rotate(var(--ang206)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang206)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang206)) translate(0px,33.333vh);
         height: 200px;}
@@ -2692,8 +2485,7 @@
 .i-207{animation: hyperspace207 var(--vel) linear infinite;}
 
 @keyframes hyperspace207{
-    0%{transform: rotate(var(--ang207)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang207)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang207)) translate(0px,33.333vh);
         height: 200px;}
@@ -2705,8 +2497,7 @@
 .i-208{animation: hyperspace208 var(--vel) linear infinite;}
 
 @keyframes hyperspace208{
-    0%{transform: rotate(var(--ang208)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang208)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang208)) translate(0px,33.333vh);
         height: 200px;}
@@ -2718,8 +2509,7 @@
 .i-209{animation: hyperspace209 var(--vel) linear infinite;}
 
 @keyframes hyperspace209{
-    0%{transform: rotate(var(--ang209)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang209)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang209)) translate(0px,33.333vh);
         height: 200px;}
@@ -2731,8 +2521,7 @@
 .i-210{animation: hyperspace210 var(--vel) linear infinite;}
 
 @keyframes hyperspace210{
-    0%{transform: rotate(var(--ang210)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang210)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang210)) translate(0px,33.333vh);
         height: 200px;}
@@ -2744,8 +2533,7 @@
 .i-211{animation: hyperspace211 var(--vel) linear infinite;}
 
 @keyframes hyperspace211{
-    0%{transform: rotate(var(--ang211)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang211)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang211)) translate(0px,33.333vh);
         height: 200px;}
@@ -2757,8 +2545,7 @@
 .i-212{animation: hyperspace212 var(--vel) linear infinite;}
 
 @keyframes hyperspace212{
-    0%{transform: rotate(var(--ang212)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang212)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang212)) translate(0px,33.333vh);
         height: 200px;}
@@ -2770,8 +2557,7 @@
 .i-213{animation: hyperspace213 var(--vel) linear infinite;}
 
 @keyframes hyperspace213{
-    0%{transform: rotate(var(--ang213)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang213)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang213)) translate(0px,33.333vh);
         height: 200px;}
@@ -2783,8 +2569,7 @@
 .i-214{animation: hyperspace214 var(--vel) linear infinite;}
 
 @keyframes hyperspace214{
-    0%{transform: rotate(var(--ang214)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang214)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang214)) translate(0px,33.333vh);
         height: 200px;}
@@ -2796,8 +2581,7 @@
 .i-215{animation: hyperspace215 var(--vel) linear infinite;}
 
 @keyframes hyperspace215{
-    0%{transform: rotate(var(--ang215)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang215)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang215)) translate(0px,33.333vh);
         height: 200px;}
@@ -2809,8 +2593,7 @@
 .i-216{animation: hyperspace216 var(--vel) linear infinite;}
 
 @keyframes hyperspace216{
-    0%{transform: rotate(var(--ang216)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang216)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang216)) translate(0px,33.333vh);
         height: 200px;}
@@ -2822,8 +2605,7 @@
 .i-217{animation: hyperspace217 var(--vel) linear infinite;}
 
 @keyframes hyperspace217{
-    0%{transform: rotate(var(--ang217)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang217)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang217)) translate(0px,33.333vh);
         height: 200px;}
@@ -2835,8 +2617,7 @@
 .i-218{animation: hyperspace218 var(--vel) linear infinite;}
 
 @keyframes hyperspace218{
-    0%{transform: rotate(var(--ang218)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang218)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang218)) translate(0px,33.333vh);
         height: 200px;}
@@ -2848,8 +2629,7 @@
 .i-219{animation: hyperspace219 var(--vel) linear infinite;}
 
 @keyframes hyperspace219{
-    0%{transform: rotate(var(--ang219)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang219)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang219)) translate(0px,33.333vh);
         height: 200px;}
@@ -2861,8 +2641,7 @@
 .i-220{animation: hyperspace220 var(--vel) linear infinite;}
 
 @keyframes hyperspace220{
-    0%{transform: rotate(var(--ang220)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang220)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang220)) translate(0px,33.333vh);
         height: 200px;}
@@ -2874,8 +2653,7 @@
 .i-221{animation: hyperspace221 var(--vel) linear infinite;}
 
 @keyframes hyperspace221{
-    0%{transform: rotate(var(--ang221)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang221)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang221)) translate(0px,33.333vh);
         height: 200px;}
@@ -2887,8 +2665,7 @@
 .i-222{animation: hyperspace222 var(--vel) linear infinite;}
 
 @keyframes hyperspace222{
-    0%{transform: rotate(var(--ang222)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang222)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang222)) translate(0px,33.333vh);
         height: 200px;}
@@ -2900,8 +2677,7 @@
 .i-223{animation: hyperspace223 var(--vel) linear infinite;}
 
 @keyframes hyperspace223{
-    0%{transform: rotate(var(--ang223)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang223)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang223)) translate(0px,33.333vh);
         height: 200px;}
@@ -2913,8 +2689,7 @@
 .i-224{animation: hyperspace224 var(--vel) linear infinite;}
 
 @keyframes hyperspace224{
-    0%{transform: rotate(var(--ang224)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang224)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang224)) translate(0px,33.333vh);
         height: 200px;}
@@ -2926,8 +2701,7 @@
 .i-225{animation: hyperspace225 var(--vel) linear infinite;}
 
 @keyframes hyperspace225{
-    0%{transform: rotate(var(--ang225)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang225)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang225)) translate(0px,33.333vh);
         height: 200px;}
@@ -2939,8 +2713,7 @@
 .i-226{animation: hyperspace226 var(--vel) linear infinite;}
 
 @keyframes hyperspace226{
-    0%{transform: rotate(var(--ang226)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang226)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang226)) translate(0px,33.333vh);
         height: 200px;}
@@ -2952,8 +2725,7 @@
 .i-227{animation: hyperspace227 var(--vel) linear infinite;}
 
 @keyframes hyperspace227{
-    0%{transform: rotate(var(--ang227)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang227)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang227)) translate(0px,33.333vh);
         height: 200px;}
@@ -2965,8 +2737,7 @@
 .i-228{animation: hyperspace228 var(--vel) linear infinite;}
 
 @keyframes hyperspace228{
-    0%{transform: rotate(var(--ang228)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang228)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang228)) translate(0px,33.333vh);
         height: 200px;}
@@ -2978,8 +2749,7 @@
 .i-229{animation: hyperspace229 var(--vel) linear infinite;}
 
 @keyframes hyperspace229{
-    0%{transform: rotate(var(--ang229)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang229)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang229)) translate(0px,33.333vh);
         height: 200px;}
@@ -2991,8 +2761,7 @@
 .i-230{animation: hyperspace230 var(--vel) linear infinite;}
 
 @keyframes hyperspace230{
-    0%{transform: rotate(var(--ang230)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang230)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang230)) translate(0px,33.333vh);
         height: 200px;}
@@ -3004,8 +2773,7 @@
 .i-231{animation: hyperspace231 var(--vel) linear infinite;}
 
 @keyframes hyperspace231{
-    0%{transform: rotate(var(--ang231)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang231)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang231)) translate(0px,33.333vh);
         height: 200px;}
@@ -3017,8 +2785,7 @@
 .i-232{animation: hyperspace232 var(--vel) linear infinite;}
 
 @keyframes hyperspace232{
-    0%{transform: rotate(var(--ang232)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang232)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang232)) translate(0px,33.333vh);
         height: 200px;}
@@ -3030,8 +2797,7 @@
 .i-233{animation: hyperspace233 var(--vel) linear infinite;}
 
 @keyframes hyperspace233{
-    0%{transform: rotate(var(--ang233)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang233)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang233)) translate(0px,33.333vh);
         height: 200px;}
@@ -3043,8 +2809,7 @@
 .i-234{animation: hyperspace234 var(--vel) linear infinite;}
 
 @keyframes hyperspace234{
-    0%{transform: rotate(var(--ang234)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang234)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang234)) translate(0px,33.333vh);
         height: 200px;}
@@ -3056,8 +2821,7 @@
 .i-235{animation: hyperspace235 var(--vel) linear infinite;}
 
 @keyframes hyperspace235{
-    0%{transform: rotate(var(--ang235)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang235)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang235)) translate(0px,33.333vh);
         height: 200px;}
@@ -3069,8 +2833,7 @@
 .i-236{animation: hyperspace236 var(--vel) linear infinite;}
 
 @keyframes hyperspace236{
-    0%{transform: rotate(var(--ang236)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang236)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang236)) translate(0px,33.333vh);
         height: 200px;}
@@ -3082,8 +2845,7 @@
 .i-237{animation: hyperspace237 var(--vel) linear infinite;}
 
 @keyframes hyperspace237{
-    0%{transform: rotate(var(--ang237)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang237)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang237)) translate(0px,33.333vh);
         height: 200px;}
@@ -3095,8 +2857,7 @@
 .i-238{animation: hyperspace238 var(--vel) linear infinite;}
 
 @keyframes hyperspace238{
-    0%{transform: rotate(var(--ang238)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang238)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang238)) translate(0px,33.333vh);
         height: 200px;}
@@ -3108,8 +2869,7 @@
 .i-239{animation: hyperspace239 var(--vel) linear infinite;}
 
 @keyframes hyperspace239{
-    0%{transform: rotate(var(--ang239)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang239)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang239)) translate(0px,33.333vh);
         height: 200px;}
@@ -3121,8 +2881,7 @@
 .i-240{animation: hyperspace240 var(--vel) linear infinite;}
 
 @keyframes hyperspace240{
-    0%{transform: rotate(var(--ang240)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang240)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang240)) translate(0px,33.333vh);
         height: 200px;}
@@ -3134,8 +2893,7 @@
 .i-241{animation: hyperspace241 var(--vel) linear infinite;}
 
 @keyframes hyperspace241{
-    0%{transform: rotate(var(--ang241)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang241)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang241)) translate(0px,33.333vh);
         height: 200px;}
@@ -3147,8 +2905,7 @@
 .i-242{animation: hyperspace242 var(--vel) linear infinite;}
 
 @keyframes hyperspace242{
-    0%{transform: rotate(var(--ang242)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang242)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang242)) translate(0px,33.333vh);
         height: 200px;}
@@ -3160,8 +2917,7 @@
 .i-243{animation: hyperspace243 var(--vel) linear infinite;}
 
 @keyframes hyperspace243{
-    0%{transform: rotate(var(--ang243)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang243)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang243)) translate(0px,33.333vh);
         height: 200px;}
@@ -3173,8 +2929,7 @@
 .i-244{animation: hyperspace244 var(--vel) linear infinite;}
 
 @keyframes hyperspace244{
-    0%{transform: rotate(var(--ang244)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang244)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang244)) translate(0px,33.333vh);
         height: 200px;}
@@ -3186,8 +2941,7 @@
 .i-245{animation: hyperspace245 var(--vel) linear infinite;}
 
 @keyframes hyperspace245{
-    0%{transform: rotate(var(--ang245)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang245)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang245)) translate(0px,33.333vh);
         height: 200px;}
@@ -3199,8 +2953,7 @@
 .i-246{animation: hyperspace246 var(--vel) linear infinite;}
 
 @keyframes hyperspace246{
-    0%{transform: rotate(var(--ang246)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang246)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang246)) translate(0px,33.333vh);
         height: 200px;}
@@ -3212,8 +2965,7 @@
 .i-247{animation: hyperspace247 var(--vel) linear infinite;}
 
 @keyframes hyperspace247{
-    0%{transform: rotate(var(--ang247)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang247)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang247)) translate(0px,33.333vh);
         height: 200px;}
@@ -3225,8 +2977,7 @@
 .i-248{animation: hyperspace248 var(--vel) linear infinite;}
 
 @keyframes hyperspace248{
-    0%{transform: rotate(var(--ang248)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang248)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang248)) translate(0px,33.333vh);
         height: 200px;}
@@ -3238,8 +2989,7 @@
 .i-249{animation: hyperspace249 var(--vel) linear infinite;}
 
 @keyframes hyperspace249{
-    0%{transform: rotate(var(--ang249)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang249)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang249)) translate(0px,33.333vh);
         height: 200px;}
@@ -3251,8 +3001,7 @@
 .i-250{animation: hyperspace250 var(--vel) linear infinite;}
 
 @keyframes hyperspace250{
-    0%{transform: rotate(var(--ang250)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang250)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang250)) translate(0px,33.333vh);
         height: 200px;}
@@ -3264,8 +3013,7 @@
 .i-251{animation: hyperspace251 var(--vel) linear infinite;}
 
 @keyframes hyperspace251{
-    0%{transform: rotate(var(--ang251)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang251)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang251)) translate(0px,33.333vh);
         height: 200px;}
@@ -3277,8 +3025,7 @@
 .i-252{animation: hyperspace252 var(--vel) linear infinite;}
 
 @keyframes hyperspace252{
-    0%{transform: rotate(var(--ang252)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang252)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang252)) translate(0px,33.333vh);
         height: 200px;}
@@ -3290,8 +3037,7 @@
 .i-253{animation: hyperspace253 var(--vel) linear infinite;}
 
 @keyframes hyperspace253{
-    0%{transform: rotate(var(--ang253)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang253)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang253)) translate(0px,33.333vh);
         height: 200px;}
@@ -3303,8 +3049,7 @@
 .i-254{animation: hyperspace254 var(--vel) linear infinite;}
 
 @keyframes hyperspace254{
-    0%{transform: rotate(var(--ang254)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang254)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang254)) translate(0px,33.333vh);
         height: 200px;}
@@ -3316,8 +3061,7 @@
 .i-255{animation: hyperspace255 var(--vel) linear infinite;}
 
 @keyframes hyperspace255{
-    0%{transform: rotate(var(--ang255)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang255)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang255)) translate(0px,33.333vh);
         height: 200px;}
@@ -3329,8 +3073,7 @@
 .i-256{animation: hyperspace256 var(--vel) linear infinite;}
 
 @keyframes hyperspace256{
-    0%{transform: rotate(var(--ang256)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang256)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang256)) translate(0px,33.333vh);
         height: 200px;}
@@ -3342,8 +3085,7 @@
 .i-257{animation: hyperspace257 var(--vel) linear infinite;}
 
 @keyframes hyperspace257{
-    0%{transform: rotate(var(--ang257)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang257)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang257)) translate(0px,33.333vh);
         height: 200px;}
@@ -3355,8 +3097,7 @@
 .i-258{animation: hyperspace258 var(--vel) linear infinite;}
 
 @keyframes hyperspace258{
-    0%{transform: rotate(var(--ang258)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang258)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang258)) translate(0px,33.333vh);
         height: 200px;}
@@ -3368,8 +3109,7 @@
 .i-259{animation: hyperspace259 var(--vel) linear infinite;}
 
 @keyframes hyperspace259{
-    0%{transform: rotate(var(--ang259)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang259)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang259)) translate(0px,33.333vh);
         height: 200px;}
@@ -3381,8 +3121,7 @@
 .i-260{animation: hyperspace260 var(--vel) linear infinite;}
 
 @keyframes hyperspace260{
-    0%{transform: rotate(var(--ang260)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang260)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang260)) translate(0px,33.333vh);
         height: 200px;}
@@ -3394,8 +3133,7 @@
 .i-261{animation: hyperspace261 var(--vel) linear infinite;}
 
 @keyframes hyperspace261{
-    0%{transform: rotate(var(--ang261)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang261)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang261)) translate(0px,33.333vh);
         height: 200px;}
@@ -3407,8 +3145,7 @@
 .i-262{animation: hyperspace262 var(--vel) linear infinite;}
 
 @keyframes hyperspace262{
-    0%{transform: rotate(var(--ang262)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang262)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang262)) translate(0px,33.333vh);
         height: 200px;}
@@ -3420,8 +3157,7 @@
 .i-263{animation: hyperspace263 var(--vel) linear infinite;}
 
 @keyframes hyperspace263{
-    0%{transform: rotate(var(--ang263)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang263)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang263)) translate(0px,33.333vh);
         height: 200px;}
@@ -3433,8 +3169,7 @@
 .i-264{animation: hyperspace264 var(--vel) linear infinite;}
 
 @keyframes hyperspace264{
-    0%{transform: rotate(var(--ang264)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang264)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang264)) translate(0px,33.333vh);
         height: 200px;}
@@ -3446,8 +3181,7 @@
 .i-265{animation: hyperspace265 var(--vel) linear infinite;}
 
 @keyframes hyperspace265{
-    0%{transform: rotate(var(--ang265)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang265)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang265)) translate(0px,33.333vh);
         height: 200px;}
@@ -3459,8 +3193,7 @@
 .i-266{animation: hyperspace266 var(--vel) linear infinite;}
 
 @keyframes hyperspace266{
-    0%{transform: rotate(var(--ang266)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang266)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang266)) translate(0px,33.333vh);
         height: 200px;}
@@ -3472,8 +3205,7 @@
 .i-267{animation: hyperspace267 var(--vel) linear infinite;}
 
 @keyframes hyperspace267{
-    0%{transform: rotate(var(--ang267)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang267)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang267)) translate(0px,33.333vh);
         height: 200px;}
@@ -3485,8 +3217,7 @@
 .i-268{animation: hyperspace268 var(--vel) linear infinite;}
 
 @keyframes hyperspace268{
-    0%{transform: rotate(var(--ang268)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang268)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang268)) translate(0px,33.333vh);
         height: 200px;}
@@ -3498,8 +3229,7 @@
 .i-269{animation: hyperspace269 var(--vel) linear infinite;}
 
 @keyframes hyperspace269{
-    0%{transform: rotate(var(--ang269)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang269)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang269)) translate(0px,33.333vh);
         height: 200px;}
@@ -3511,8 +3241,7 @@
 .i-270{animation: hyperspace270 var(--vel) linear infinite;}
 
 @keyframes hyperspace270{
-    0%{transform: rotate(var(--ang270)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang270)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang270)) translate(0px,33.333vh);
         height: 200px;}
@@ -3524,8 +3253,7 @@
 .i-271{animation: hyperspace271 var(--vel) linear infinite;}
 
 @keyframes hyperspace271{
-    0%{transform: rotate(var(--ang271)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang271)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang271)) translate(0px,33.333vh);
         height: 200px;}
@@ -3537,8 +3265,7 @@
 .i-272{animation: hyperspace272 var(--vel) linear infinite;}
 
 @keyframes hyperspace272{
-    0%{transform: rotate(var(--ang272)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang272)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang272)) translate(0px,33.333vh);
         height: 200px;}
@@ -3550,8 +3277,7 @@
 .i-273{animation: hyperspace273 var(--vel) linear infinite;}
 
 @keyframes hyperspace273{
-    0%{transform: rotate(var(--ang273)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang273)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang273)) translate(0px,33.333vh);
         height: 200px;}
@@ -3563,8 +3289,7 @@
 .i-274{animation: hyperspace274 var(--vel) linear infinite;}
 
 @keyframes hyperspace274{
-    0%{transform: rotate(var(--ang274)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang274)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang274)) translate(0px,33.333vh);
         height: 200px;}
@@ -3576,8 +3301,7 @@
 .i-275{animation: hyperspace275 var(--vel) linear infinite;}
 
 @keyframes hyperspace275{
-    0%{transform: rotate(var(--ang275)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang275)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang275)) translate(0px,33.333vh);
         height: 200px;}
@@ -3589,8 +3313,7 @@
 .i-276{animation: hyperspace276 var(--vel) linear infinite;}
 
 @keyframes hyperspace276{
-    0%{transform: rotate(var(--ang276)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang276)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang276)) translate(0px,33.333vh);
         height: 200px;}
@@ -3602,8 +3325,7 @@
 .i-277{animation: hyperspace277 var(--vel) linear infinite;}
 
 @keyframes hyperspace277{
-    0%{transform: rotate(var(--ang277)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang277)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang277)) translate(0px,33.333vh);
         height: 200px;}
@@ -3615,8 +3337,7 @@
 .i-278{animation: hyperspace278 var(--vel) linear infinite;}
 
 @keyframes hyperspace278{
-    0%{transform: rotate(var(--ang278)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang278)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang278)) translate(0px,33.333vh);
         height: 200px;}
@@ -3628,8 +3349,7 @@
 .i-279{animation: hyperspace279 var(--vel) linear infinite;}
 
 @keyframes hyperspace279{
-    0%{transform: rotate(var(--ang279)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang279)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang279)) translate(0px,33.333vh);
         height: 200px;}
@@ -3641,8 +3361,7 @@
 .i-280{animation: hyperspace280 var(--vel) linear infinite;}
 
 @keyframes hyperspace280{
-    0%{transform: rotate(var(--ang280)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang280)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang280)) translate(0px,33.333vh);
         height: 200px;}
@@ -3654,8 +3373,7 @@
 .i-281{animation: hyperspace281 var(--vel) linear infinite;}
 
 @keyframes hyperspace281{
-    0%{transform: rotate(var(--ang281)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang281)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang281)) translate(0px,33.333vh);
         height: 200px;}
@@ -3667,8 +3385,7 @@
 .i-282{animation: hyperspace282 var(--vel) linear infinite;}
 
 @keyframes hyperspace282{
-    0%{transform: rotate(var(--ang282)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang282)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang282)) translate(0px,33.333vh);
         height: 200px;}
@@ -3680,8 +3397,7 @@
 .i-283{animation: hyperspace283 var(--vel) linear infinite;}
 
 @keyframes hyperspace283{
-    0%{transform: rotate(var(--ang283)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang283)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang283)) translate(0px,33.333vh);
         height: 200px;}
@@ -3693,8 +3409,7 @@
 .i-284{animation: hyperspace284 var(--vel) linear infinite;}
 
 @keyframes hyperspace284{
-    0%{transform: rotate(var(--ang284)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang284)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang284)) translate(0px,33.333vh);
         height: 200px;}
@@ -3706,8 +3421,7 @@
 .i-285{animation: hyperspace285 var(--vel) linear infinite;}
 
 @keyframes hyperspace285{
-    0%{transform: rotate(var(--ang285)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang285)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang285)) translate(0px,33.333vh);
         height: 200px;}
@@ -3719,8 +3433,7 @@
 .i-286{animation: hyperspace286 var(--vel) linear infinite;}
 
 @keyframes hyperspace286{
-    0%{transform: rotate(var(--ang286)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang286)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang286)) translate(0px,33.333vh);
         height: 200px;}
@@ -3732,8 +3445,7 @@
 .i-287{animation: hyperspace287 var(--vel) linear infinite;}
 
 @keyframes hyperspace287{
-    0%{transform: rotate(var(--ang287)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang287)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang287)) translate(0px,33.333vh);
         height: 200px;}
@@ -3745,8 +3457,7 @@
 .i-288{animation: hyperspace288 var(--vel) linear infinite;}
 
 @keyframes hyperspace288{
-    0%{transform: rotate(var(--ang288)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang288)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang288)) translate(0px,33.333vh);
         height: 200px;}
@@ -3758,8 +3469,7 @@
 .i-289{animation: hyperspace289 var(--vel) linear infinite;}
 
 @keyframes hyperspace289{
-    0%{transform: rotate(var(--ang289)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang289)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang289)) translate(0px,33.333vh);
         height: 200px;}
@@ -3771,8 +3481,7 @@
 .i-290{animation: hyperspace290 var(--vel) linear infinite;}
 
 @keyframes hyperspace290{
-    0%{transform: rotate(var(--ang290)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang290)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang290)) translate(0px,33.333vh);
         height: 200px;}
@@ -3784,8 +3493,7 @@
 .i-291{animation: hyperspace291 var(--vel) linear infinite;}
 
 @keyframes hyperspace291{
-    0%{transform: rotate(var(--ang291)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang291)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang291)) translate(0px,33.333vh);
         height: 200px;}
@@ -3797,8 +3505,7 @@
 .i-292{animation: hyperspace292 var(--vel) linear infinite;}
 
 @keyframes hyperspace292{
-    0%{transform: rotate(var(--ang292)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang292)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang292)) translate(0px,33.333vh);
         height: 200px;}
@@ -3810,8 +3517,7 @@
 .i-293{animation: hyperspace293 var(--vel) linear infinite;}
 
 @keyframes hyperspace293{
-    0%{transform: rotate(var(--ang293)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang293)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang293)) translate(0px,33.333vh);
         height: 200px;}
@@ -3823,8 +3529,7 @@
 .i-294{animation: hyperspace294 var(--vel) linear infinite;}
 
 @keyframes hyperspace294{
-    0%{transform: rotate(var(--ang294)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang294)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang294)) translate(0px,33.333vh);
         height: 200px;}
@@ -3836,8 +3541,7 @@
 .i-295{animation: hyperspace295 var(--vel) linear infinite;}
 
 @keyframes hyperspace295{
-    0%{transform: rotate(var(--ang295)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang295)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang295)) translate(0px,33.333vh);
         height: 200px;}
@@ -3849,8 +3553,7 @@
 .i-296{animation: hyperspace296 var(--vel) linear infinite;}
 
 @keyframes hyperspace296{
-    0%{transform: rotate(var(--ang296)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang296)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang296)) translate(0px,33.333vh);
         height: 200px;}
@@ -3862,8 +3565,7 @@
 .i-297{animation: hyperspace297 var(--vel) linear infinite;}
 
 @keyframes hyperspace297{
-    0%{transform: rotate(var(--ang297)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang297)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang297)) translate(0px,33.333vh);
         height: 200px;}
@@ -3875,8 +3577,7 @@
 .i-298{animation: hyperspace298 var(--vel) linear infinite;}
 
 @keyframes hyperspace298{
-    0%{transform: rotate(var(--ang298)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang298)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang298)) translate(0px,33.333vh);
         height: 200px;}
@@ -3888,8 +3589,7 @@
 .i-299{animation: hyperspace299 var(--vel) linear infinite;}
 
 @keyframes hyperspace299{
-    0%{transform: rotate(var(--ang299)) translate(0px,0px);
-        background-color: #ffffff60;}
+    0%{transform: rotate(var(--ang299)) translate(0px,0px);}
 
     33%{transform: rotate(var(--ang299)) translate(0px,33.333vh);
         height: 200px;}

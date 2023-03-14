@@ -1,5 +1,5 @@
 :root{
-    --vel: 1000ms;
+    --vel: 600s;
 }
 
 body{
@@ -11,9 +11,28 @@ body{
     overflow: hidden;
 }
 
+#display{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    line-height: 100vh;
+    text-align: center;
+    color: #ffffff30;
+}
+
+.flash{
+    animation: flashing 2s ease-in-out 1;
+}
+
+@keyframes flashing {
+    0%{
+        background-color: #bdbdbd;
+    }
+    100%{
+        background-color: #ffffff00;
+    }
+}
+
 .star{
-    width: 5px;
-    height: 5px;
     border-radius: 100%;
     background-color: white;
     transform-origin: top center;
