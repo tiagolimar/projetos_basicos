@@ -1,4 +1,4 @@
-contador = 300
+contador = 160
 
 with open('animations.css','w') as css_file:
     for i in range(contador):
