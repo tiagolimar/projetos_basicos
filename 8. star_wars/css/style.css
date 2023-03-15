@@ -17,6 +17,7 @@ body{
     line-height: 100vh;
     text-align: center;
     color: #ffffff30;
+    transition-duration: 100ms;
 }
 
 .flash{
