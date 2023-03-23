@@ -1,7 +1,7 @@
 :root{
     --diametro: 500px;
-    --raio: 250px;
-    --raio-texto: 215px;
+    --raio: calc(var(--diametro) / 2);
+    --raio-texto: calc(var(--raio) - 35px);
     --espessura-da-borda: 60px;
 }
 
