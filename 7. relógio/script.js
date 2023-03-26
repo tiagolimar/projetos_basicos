@@ -5,9 +5,23 @@ let ponteiro_segundo = document.getElementById("ponteiro_segundo");
 const medidor_hora = document.getElementById("medidor_hora");
 const medidor_minuto = document.getElementById("medidor_minuto");
 const numeral = document.getElementById("numeral");
-const raio_texto = 215;
+// const raio_texto = 215;
 
 setInterval(Motor,1000);
+
+let root = document.querySelector(':root');
+let largura = window.innerWidth;
+let altura = window.innerHeight;
+let diametro = 0;
+
+if (largura>altura){
+    diametro = altura*0.6;
+}else{
+    diametro = largura*0.6;
+}
+
+root.style.setProperty('--diametro',`${diametro}px`);
+var raio_texto = diametro/2 - 35;
 
 function Motor(){
     let dateToday = new Date();
