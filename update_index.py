@@ -16,6 +16,24 @@ def obter_data_modificacao(nome_da_pasta):
     return data_de_modificacao
 
 
+def organizar_ordem(lista):
+    dicionario_lista = {}
+    indices = []
+    nova_lista = []
+
+    for item in lista:
+        indice = int(item.split('.')[0])
+        dicionario_lista[indice] = item
+        indices.append(indice)
+
+    indices.sort()
+
+    for indice in indices:
+        nova_lista.append(dicionario_lista[indice])
+
+    return nova_lista
+
+
 def identificar_pastas():
     caminho_atual = os.getcwd()
     diretorios = []
@@ -37,6 +55,7 @@ def identificar_pastas():
 
 
 pastas = identificar_pastas()
+pastas = organizar_ordem(pastas)
 
 for num,pasta in enumerate(pastas):
     data_de_modificacao = obter_data_modificacao(pasta)

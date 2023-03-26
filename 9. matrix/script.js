@@ -1,7 +1,7 @@
 const intervalo_tempo = 75
 const intervalo_tempo_aparecimento_colunas = intervalo_tempo*2
 const comprimento_do_rastro = 8
-const modo_caracteres_aleatorio = true
+const modo_caracteres_aleatorio = false
 
 const quant_copias_coluna = 42
 const quant_copias_linhas = 28

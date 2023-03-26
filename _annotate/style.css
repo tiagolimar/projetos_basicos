@@ -15,7 +15,7 @@
     align-items: center;
     flex-direction: column;
     background-image: linear-gradient(to bottom,#c3d5ff,rgb(124, 181, 255));
-    gap: 24px;
+    gap: 18px;
 }
 
 .projeto{
