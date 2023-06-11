@@ -1,0 +1,13 @@
+{
+    "name": "exemplo-sousa",
+    "version": "0.0.1",
+    "description": "App simples em node",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "^4.18.2",
+        "node-static": "^0.7.11"
+    }
+}
