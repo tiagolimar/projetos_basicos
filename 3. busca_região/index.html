@@ -12,23 +12,18 @@
         <h1>Busca por Região</h1>
         <form action="">
             <div class="regioes">
-                <select name="" id="">
-                    <option>Nordeste</option>
-                    <option>Norte</option>
+                <select id="regiao" onchange="preencher_estado()">
+                    <option>Escolha...</option>
                 </select>
-                <select name="" id="">
-                    <option>Ceará</option>
-                    <option>Bahia</option>
+                <select id="estado" onchange="preencher_municipio()">
+                    <option>Escolha...</option>
                 </select>
-                <select name="" id="">
-                    <option>Fortaleza</option>
-                    <option>Salvador</option>
-                </select>
-                <select name="" id="">
-                    <option>Edson Queiroz</option>
+                <select id="municipio">
+                    <option>Escolha...</option>
                 </select>
             </div>
         </form>
     </div>
+    <script src="./index.js"></script>
 </body>
 </html>
