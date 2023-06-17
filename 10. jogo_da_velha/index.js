@@ -25,27 +25,29 @@ let init = () => {
 }
 
 let play = e=>{
-    if(!player){
-        let id_disponiveis = Object.keys(fields)
-        let id = Math.floor(Math.random()*id_disponiveis.length)
-        id = id_disponiveis[id]
-
-        fields[id].innerHTML = 'O'
-        fields_zero.push(id)
-        delete fields[id]
-        test_vitory(fields_zero,0)
-        player = 1
-    }else{
-        if(!e.target.innerHTML){
-            let id = e.target.id
-
-            e.target.innerHTML = 'X'
-            fields_one.push(id)
+    if(!restart){
+        if(!player){
+            let id_disponiveis = Object.keys(fields)
+            let id = Math.floor(Math.random()*id_disponiveis.length)
+            id = id_disponiveis[id]
+    
+            fields[id].innerHTML = 'O'
+            fields_zero.push(id)
             delete fields[id]
-            
-            test_vitory(fields_one,1)
-            player = 0
-            if(!restart) play()
+            test_vitory(fields_zero,0)
+            player = 1
+        }else{
+            if(!e.target.innerHTML){
+                let id = e.target.id
+    
+                e.target.innerHTML = 'X'
+                fields_one.push(id)
+                delete fields[id]
+                
+                test_vitory(fields_one,1)
+                player = 0
+                if(!restart) play()
+            }
         }
     }
 }
