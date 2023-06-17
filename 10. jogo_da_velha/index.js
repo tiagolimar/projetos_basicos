@@ -62,7 +62,7 @@ let test_vitory = (list,status)=>{
             })
 
         }
-        if(Object.keys(fields)==0) after_victory(2)
+        if(Object.keys(fields)==0 && !restart) after_victory(2)
     }
 }
 
