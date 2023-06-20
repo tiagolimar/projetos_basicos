@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #dedede;
+}
+
+.container{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #00000090
+}
+
+.parte-superior{
+    padding: 20px;
+    width: 100%;
+    height: 60%;
+    border-radius: 10px 10px 0 0;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.parte-superior p{
+    width: 45%;
+    font-size: 36px;
+}
+
+.parte-superior b{
+    color: #FFB431;
+}
+
+.parte-superior img{
+    width: 60%;
+}
+
+.parte-superior img.disabled{
+    display: none;
+}
+
+.parte-superior #i2 .disable{
+    
+}
+
+.parte-inferior{
+    width: 100%;
+    height: 50%;
+    border-radius: 0 0 10px 10px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4%;
+}
+
+.parte-inferior .display-status p{
+    margin-top: 6%;
+    display: inline-block;
+}
+
+.parte-inferior #palpite{
+    width: 55px;
+    height: 50px;
+    border: 2px solid #DE5540;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+}
+
+.parte-inferior #palpite::-webkit-inner-spin-button,
+.parte-inferior #palpite::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.parte-inferior #display-palpites,
+.parte-inferior #status-valor{
+    color: #FFB431;
+}
+
+/* @media (min-width: 360px){
+    .container{
+        width: 80%;
+    }
+    .parte-superior p{
+        font-size: 28px;
+    }
+} */
+
+
+@media (min-width: 200px){
+    .container{
+        width: 90%;
+    }
+    .parte-superior p{
+        font-size: 36px;
+    }
+}
+
+@media (min-width: 600px){
+    .container{
+        width: 60%;
+    }
+    .parte-superior p{
+        font-size: 36px;
+    }
+}
+
+@media (min-width: 800px){
+    .container{
+        width: 60%;
+    }
+    .parte-superior p{
+        font-size: 42px;
+    }
+}
+
+@media (min-width: 900px){
+    .container{
+        width: 40%;
+    }
+    .parte-superior p{
+        font-size: 36px;
+    }
+}
+
+@media (min-width: 1150px){
+    .container{
+        width: 30%;
+    }
+    .parte-superior p{
+        font-size: 36px;
+    }
+}
