@@ -32,7 +32,10 @@ Este repositório contém uma série de projetos desenvolvidos para praticar HTM
    - Modificado em: 11/02/2023 14:08
 
 10. [JOGO DA VELHA](10.%20jogo_da_velha/index.html)
-    - Modificado em: 17/06/2023 00:23
+   - Modificado em: 17/06/2023 00:23
+
+11. [BIA](11.%20bia/index.html)
+   - Modificado em: 19/06/2023 23:29
 
 ## Como Usar
 

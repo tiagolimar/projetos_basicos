@@ -2,7 +2,7 @@ import os
 from datetime import datetime
 
 nome_html = 'index.html'
-nome_readme = 'index.md'
+nome_readme = 'README.md'
 
 excludente_de_pastas = ['_','.']
 local_html_base = os.getcwd()+'\\'+'_annotate\\index_base.html'
