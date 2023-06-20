@@ -2,12 +2,15 @@ import os
 from datetime import datetime
 
 nome_html = 'index.html'
+nome_readme = 'index.md'
+
 excludente_de_pastas = ['_','.']
 local_html_base = os.getcwd()+'\\'+'_annotate\\index_base.html'
 
 identificador_conteudo = '<<<>>>'
 novo_conteudo = ''
 texto_html = ''
+texto_readme = '\n'
 
 def obter_data_modificacao(nome_da_pasta):
     info_pasta = os.stat(pasta).st_mtime
@@ -63,8 +66,13 @@ for num,pasta in enumerate(pastas):
     nome_pasta = pasta.upper().replace('_',' ')
     texto_html += f'''\t\t<div class="projeto link{num}" >
             <a target="_blank" id="link{num}" href="{pasta}\\{nome_html}">{nome_pasta}</a>
-            <p>modificado em: {data_de_modificacao}</p>
+            <p>Modificado em: {data_de_modificacao}</p>
         </div>\n'''
+    
+    nome_pasta_readme = ' '.join(nome_pasta.split('.')[1:])
+    endereco_pasta = pasta.replace(' ','%20')
+    texto_readme += f'''{num+1}. [{nome_pasta_readme.strip()}]({endereco_pasta}/{nome_html})\n   - Modificado em: {data_de_modificacao}\n\n'''
+
 else:
     texto_html = texto_html[:-1]
 
@@ -78,3 +86,33 @@ for linha in conteudo:
 
 with open(nome_html,'w',encoding='utf-8') as arquivo:
     arquivo.writelines(novo_conteudo)
+
+
+def substituir_readme():
+    identificador_inicio = '## Lista de Projetos'
+    ignorar = False
+    identificador_final = '## Como Usar'
+    terminar = False
+    
+    novo_conteudo = ''
+
+    with open('README.md','r',encoding='utf-8') as arquivo:
+        conteudo = arquivo.readlines()
+
+    for linha in conteudo:
+        if identificador_inicio in linha:
+            novo_conteudo += linha
+            ignorar = True
+
+        if identificador_final in linha:
+            ignorar = False
+            novo_conteudo += texto_readme
+
+        if not ignorar:
+            novo_conteudo += linha
+
+
+    with open(nome_readme,'w',encoding='utf-8') as arquivo:
+        arquivo.writelines(novo_conteudo)
+
+substituir_readme()
