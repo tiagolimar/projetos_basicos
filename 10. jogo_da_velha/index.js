@@ -27,9 +27,19 @@ let init = () => {
 let play = e=>{
     if(!restart){
         if(!player){
-            let id_disponiveis = Object.keys(fields)
-            let id = Math.floor(Math.random()*id_disponiveis.length)
-            id = id_disponiveis[id]
+            let id = predict_play(fields_zero)
+            console.log(fields_zero, id);
+            if(!id) {
+                id = predict_play(fields_one)
+                console.log(id);
+            }
+
+            if(!id){
+                let id_disponiveis = Object.keys(fields)
+                id = Math.floor(Math.random()*id_disponiveis.length)
+                id = id_disponiveis[id]
+            }
+            console.log(id+'\n\n--------');
     
             fields[id].innerHTML = 'O'
             fields_zero.push(id)
@@ -52,7 +62,7 @@ let play = e=>{
     }
 }
 
-let test_vitory = (list,status)=>{
+let test_vitory = (list,status,simulation=false)=>{
     if (list.length>2){
         list = list.sort()
 
@@ -100,24 +110,38 @@ let is_victory = (list)=>{
     return false
 }
 
-play()
-
 let getCombinations = (array, size)=>{
-        const combinations = [];
-        
-        let generateCombinations = (currentCombination, start)=>{
-            if (currentCombination.length === size) {
-                combinations.push([...currentCombination]);
-                return;
-            }
-            
-            for (let i = start; i < array.length; i++) {
-                currentCombination.push(array[i]);
-                generateCombinations(currentCombination, i + 1);
-                currentCombination.pop();
-            }
+    const combinations = [];
+    
+    let generateCombinations = (currentCombination, start)=>{
+        if (currentCombination.length === size) {
+            combinations.push([...currentCombination]);
+            return;
         }
         
-        generateCombinations([], 0);
-        return combinations;
+        for (let i = start; i < array.length; i++) {
+            currentCombination.push(array[i]);
+            generateCombinations(currentCombination, i + 1);
+            currentCombination.pop();
+        }
     }
+    
+    generateCombinations([], 0);
+    return combinations;
+}
+
+let predict_play = l =>{
+    for (let key of Object.keys(fields)){
+        let list = l.concat(key)
+        list = list.sort()
+        getCombinations(list,3).forEach(combination=>{
+            if(is_victory(combination)) {
+                return key
+            }
+        })
+    }
+    return false
+}
+
+play()
+
