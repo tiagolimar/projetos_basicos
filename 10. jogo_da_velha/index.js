@@ -28,19 +28,15 @@ let play = e=>{
     if(!restart){
         if(!player){
             let id = predict_play(fields_zero)
-            console.log(fields_zero, id);
-            if(!id) {
-                id = predict_play(fields_one)
-                console.log(id);
-            }
+            console.log(id);
+            if(id == false) id = predict_play(fields_one)
 
-            if(!id){
+            if(id == false){
                 let id_disponiveis = Object.keys(fields)
                 id = Math.floor(Math.random()*id_disponiveis.length)
                 id = id_disponiveis[id]
             }
-            console.log(id+'\n\n--------');
-    
+
             fields[id].innerHTML = 'O'
             fields_zero.push(id)
             delete fields[id]
@@ -100,10 +96,13 @@ let is_victory = (list)=>{
 
     if(dif1 == dif2){
         if((dif1 == 1 )&& (list[0]==1 || list[0]==4 || list[0]==7)){
+            console.log('foi');
             return true
         }else if (dif1>2){
+            console.log('foi');
             return true
         }else if ((dif1 == 2)&&(list[0]==3)){
+            console.log('foi');
             return true
         }
     }
@@ -131,17 +130,22 @@ let getCombinations = (array, size)=>{
 }
 
 let predict_play = l =>{
-    for (let key of Object.keys(fields)){
-        let list = l.concat(key)
-        list = list.sort()
-        getCombinations(list,3).forEach(combination=>{
-            if(is_victory(combination)) {
-                return key
-            }
-        })
+    if (l.length > 1){
+        for (let key of Object.keys(fields)){
+            let list = l.concat(key)
+            list = list.sort()
+            getCombinations(list,3).forEach(combination=>{
+                if(is_victory(combination)) {
+                    console.log(key);
+                    return key
+                }
+            })
+        }
+    }else{
+        return false
     }
     return false
 }
 
-play()
+
 
