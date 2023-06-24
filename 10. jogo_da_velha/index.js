@@ -41,9 +41,8 @@ let define_id = ()=>{
         
         if(id == false) id = predict_play(fields_one)
         
-        if(id == false){
-            id = get_random_id()
-        }
+        if(id == false) id = get_random_id()
+
     }
     console.log(id);
     return id
