@@ -71,7 +71,7 @@ for num,pasta in enumerate(pastas):
     
     nome_pasta_readme = ' '.join(nome_pasta.split('.')[1:])
     endereco_pasta = pasta.replace(' ','%20')
-    texto_readme += f'''{num+1}. [{nome_pasta_readme.strip()}]({endereco_pasta}/{nome_html})\n   - Modificado em: {data_de_modificacao}\n\n'''
+    texto_readme += f'''1. [{nome_pasta_readme.strip()}]({endereco_pasta}/{nome_html}) - Modificado em: {data_de_modificacao}\n\n'''
 
 else:
     texto_html = texto_html[:-1]
