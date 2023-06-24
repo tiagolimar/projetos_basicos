@@ -15,27 +15,42 @@
     </style>
   </head>
   <body class="d-flex flex-column align-items-center justify-content-center" onload="play()">
-    <h1>Jogo da velha</h1>
-    <div class="mt-4">
-        <div class="row">
-          <div class="field col-sm-4 border border-primary fs-1" id="1" onclick="play(event)"></div>
-          <div class="field col-sm-4 border border-primary fs-1" id="2" onclick="play(event)"></div>
-          <div class="field col-sm-4 border border-primary fs-1" id="3" onclick="play(event)"></div>
+    <h1 class="ps-4 mt-4 text-center">Jogo da velha</h1>
+    <div class="d-flex">
+      <div class="m-4">
+        <h4 class="text-center text-secondary">MÁQUINA</h4>
+        <h1 class="text-center text-danger" id="win_zero">0</h1>
+      </div>
+      <div class="ms-4">
+        <div class="mt-4">
+            <div class="row">
+              <div class="field col-sm-4 border border-primary fs-1" id="1" onclick="play(event)"></div>
+              <div class="field col-sm-4 border border-primary fs-1" id="2" onclick="play(event)"></div>
+              <div class="field col-sm-4 border border-primary fs-1" id="3" onclick="play(event)"></div>
+            </div>
+            <div class="row">
+              <div class="field col-sm-4 border border-primary fs-1" id="4" onclick="play(event)"></div>
+              <div class="field col-sm-4 border border-primary fs-1" id="5" onclick="play(event)"></div>
+              <div class="field col-sm-4 border border-primary fs-1" id="6" onclick="play(event)"></div>
+            </div>
+            <div class="row">
+              <div class="field col-sm-4 border border-primary fs-1" id="7" onclick="play(event)"></div>
+              <div class="field col-sm-4 border border-primary fs-1" id="8" onclick="play(event)"></div>
+              <div class="field col-sm-4 border border-primary fs-1" id="9" onclick="play(event)"></div>
+            </div>
+            <div class="row" style="width:375px">
+              <h3 id="success" class="mt-2 text-success text-center"></h3>
+              <h3 id="danger" class="mt-2 text-danger text-center"></h3>
+              <h3 id="comentary" class="mt-2 text-secondary text-center fs-5" onclick="init()">Sua vez! Clique AQUI para reiniciar</h2>
+            </div>
         </div>
-        <div class="row">
-          <div class="field col-sm-4 border border-primary fs-1" id="4" onclick="play(event)"></div>
-          <div class="field col-sm-4 border border-primary fs-1" id="5" onclick="play(event)"></div>
-          <div class="field col-sm-4 border border-primary fs-1" id="6" onclick="play(event)"></div>
-        </div>
-        <div class="row">
-          <div class="field col-sm-4 border border-primary fs-1" id="7" onclick="play(event)"></div>
-          <div class="field col-sm-4 border border-primary fs-1" id="8" onclick="play(event)"></div>
-          <div class="field col-sm-4 border border-primary fs-1" id="9" onclick="play(event)"></div>
-        </div>
+      </div>
+      <div class="m-4">
+        <h4 class="text-center text-secondary">VOCÊ</h4>
+        <h1 class="text-center text-success" id="win_one">0</h1>
+      </div>
     </div>
-    <h1 id="success" class="mt-2 text-success"></h1>
-    <h1 id="danger" class="mt-2 text-danger"></h1>
-    <h2 id="comentary" class="mt-2 text-secondary" onclick="init()">Sua vez! Clique AQUI para reiniciar</h2>
+
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script> -->
     <script src="./index.js"></script>
   </body>

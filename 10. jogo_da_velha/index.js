@@ -24,19 +24,23 @@ let init = () => {
     play()
 }
 
-let play = e=>{
+let define_id = ()=>{
+    let id = predict_play(fields_zero)
+
+    if(id == false) id = predict_play(fields_one)
+
+    if(id == false){
+        let id_disponiveis = Object.keys(fields)
+        id = Math.floor(Math.random()*id_disponiveis.length)
+        id = id_disponiveis[id]
+    }
+    return id
+}
+
+let play = e => {
     if(!restart){
         if(!player){
-            let id = predict_play(fields_zero)
-            console.log(id);
-            if(id == false) id = predict_play(fields_one)
-
-            if(id == false){
-                let id_disponiveis = Object.keys(fields)
-                id = Math.floor(Math.random()*id_disponiveis.length)
-                id = id_disponiveis[id]
-            }
-
+            let id = define_id()
             fields[id].innerHTML = 'O'
             fields_zero.push(id)
             delete fields[id]
@@ -58,29 +62,14 @@ let play = e=>{
     }
 }
 
-let test_vitory = (list,status,simulation=false)=>{
-    if (list.length>2){
-        list = list.sort()
-
-        if(list.length==3){
-            if(is_victory(list)) after_victory(status)
-        }else{
-            getCombinations(list,3).forEach(combination=>{
-                if(is_victory(combination)) after_victory(status)
-            })
-
-        }
-        if(Object.keys(fields)==0 && !restart) after_victory(2)
-    }
-}
-
 let after_victory = (status)=>{
     if (!status){
+        win_zero.innerHTML = +win_zero.innerHTML + 1
         danger.innerHTML = 'Você perdeu!'
     }else if (status==1){
+        win_one.innerHTML = +win_one.innerHTML + 1
         success.innerHTML = 'Você venceu!'
     }else if(status==2){
-        console.log(1);
         comentary.innerHTML = 'Empate!<br>Clique AQUI para reiniciar'
         restart = true
         return
@@ -96,13 +85,10 @@ let is_victory = (list)=>{
 
     if(dif1 == dif2){
         if((dif1 == 1 )&& (list[0]==1 || list[0]==4 || list[0]==7)){
-            console.log('foi');
             return true
         }else if (dif1>2){
-            console.log('foi');
             return true
         }else if ((dif1 == 2)&&(list[0]==3)){
-            console.log('foi');
             return true
         }
     }
@@ -129,23 +115,35 @@ let getCombinations = (array, size)=>{
     return combinations;
 }
 
+let test_vitory = (list,status,simulation=false)=>{
+    if (list.length>2){
+        list = list.sort()
+
+        if(list.length==3){
+            if(is_victory(list)) after_victory(status)
+        }else{
+            getCombinations(list,3).forEach(combination=>{
+                if(is_victory(combination)) after_victory(status)
+            })
+
+        }
+        if(Object.keys(fields)==0 && !restart) after_victory(2)
+    }
+}
+
 let predict_play = l =>{
+    let id = false
     if (l.length > 1){
         for (let key of Object.keys(fields)){
             let list = l.concat(key)
             list = list.sort()
             getCombinations(list,3).forEach(combination=>{
                 if(is_victory(combination)) {
-                    console.log(key);
-                    return key
+                    id = key
+                    return id
                 }
             })
         }
-    }else{
-        return false
     }
-    return false
+    return id
 }
-
-
-
