@@ -4,29 +4,29 @@ Este repositório contém uma série de projetos desenvolvidos para praticar HTM
 
 ## Lista de Projetos
 
-1. [BANNER](1.%20banner/index.html) - Modificado em: 20/06/2023 12:41
+1. [BANNER](1.%20banner/index.html) - Modificado em: 11/02/2023 13:47
 
-1. [BUSCA CEP](2.%20busca_cep/index.html) - Modificado em: 20/06/2023 12:41
+1. [BUSCA CEP](2.%20busca_cep/index.html) - Modificado em: 26/03/2023 10:45
 
-1. [BUSCA REGIÃO](3.%20busca_região/index.html) - Modificado em: 20/06/2023 12:41
+1. [BUSCA REGIÃO](3.%20busca_região/index.html) - Modificado em: 11/06/2023 23:26
 
-1. [CALCULADORA](4.%20calculadora/index.html) - Modificado em: 20/06/2023 12:41
+1. [CALCULADORA](4.%20calculadora/index.html) - Modificado em: 11/02/2023 13:47
 
-1. [CALCULADORA IMC](5.%20calculadora_imc/index.html) - Modificado em: 20/06/2023 12:41
+1. [CALCULADORA IMC](5.%20calculadora_imc/index.html) - Modificado em: 11/02/2023 13:47
 
-1. [EFEITO DIGITAÇÃO](6.%20efeito_digitação/index.html) - Modificado em: 20/06/2023 12:41
+1. [EFEITO DIGITAÇÃO](6.%20efeito_digitação/index.html) - Modificado em: 11/02/2023 13:47
 
-1. [RELÓGIO](7.%20relógio/index.html) - Modificado em: 20/06/2023 12:41
+1. [RELÓGIO](7.%20relógio/index.html) - Modificado em: 11/02/2023 13:47
 
-1. [STAR WARS](8.%20star_wars/index.html) - Modificado em: 20/06/2023 12:41
+1. [STAR WARS](8.%20star_wars/index.html) - Modificado em: 14/03/2023 00:09
 
-1. [MATRIX](9.%20matrix/index.html) - Modificado em: 20/06/2023 12:41
+1. [MATRIX](9.%20matrix/index.html) - Modificado em: 18/02/2023 00:34
 
-1. [JOGO DA VELHA](10.%20jogo_da_velha/index.html) - Modificado em: 24/06/2023 07:18
+1. [JOGO DA VELHA](10.%20jogo_da_velha/index.html) - Modificado em: 23/06/2023 23:02
 
-1. [BIA](11.%20bia/index.html) - Modificado em: 20/06/2023 12:41
+1. [BIA](11.%20bia/index.html) - Modificado em: 19/06/2023 23:33
 
-1. [TABELA API](12.%20tabela_api/index.html) - Modificado em: 24/06/2023 07:29
+1. [TABELA API](12.%20tabela_api/index.html) - Modificado em: 24/06/2023 08:06
 
 ## Como Usar
 

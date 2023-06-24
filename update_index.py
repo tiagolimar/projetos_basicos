@@ -1,4 +1,5 @@
 import os
+import subprocess
 from datetime import datetime
 
 nome_html = 'index.html'
@@ -11,6 +12,17 @@ identificador_conteudo = '<<<>>>'
 novo_conteudo = ''
 texto_html = ''
 texto_readme = '\n'
+
+def obter_data_commit_mais_recente(subprojeto, arquivo):
+    comando = ['git', 'log', '-1', '--format=%cd', '--', f'{subprojeto}/{arquivo}']
+    resultado = subprocess.run(comando, capture_output=True, text=True)
+    data_commit = resultado.stdout.strip().split()
+
+    mes = datetime.strptime(data_commit[1],"%b").month
+    mes = '0'+str(mes) if mes<10 else mes
+
+    data_commit = f'{data_commit[2]}/{mes}/{data_commit[4]} {data_commit[3][:5]}'
+    return data_commit
 
 def obter_data_modificacao(nome_da_pasta):
     info_pasta = os.stat(pasta).st_mtime
@@ -61,14 +73,14 @@ pastas = identificar_pastas()
 pastas = organizar_ordem(pastas)
 
 for num,pasta in enumerate(pastas):
-    data_de_modificacao = obter_data_modificacao(pasta)
+    data_de_modificacao = obter_data_commit_mais_recente(pasta,nome_html)
 
     nome_pasta = pasta.upper().replace('_',' ')
     texto_html += f'''\t\t<div class="projeto link{num}" >
             <a target="_blank" id="link{num}" href="{pasta}\\{nome_html}">{nome_pasta}</a>
             <p>Modificado em: {data_de_modificacao}</p>
         </div>\n'''
-    
+
     nome_pasta_readme = ' '.join(nome_pasta.split('.')[1:])
     endereco_pasta = pasta.replace(' ','%20')
     texto_readme += f'''1. [{nome_pasta_readme.strip()}]({endereco_pasta}/{nome_html}) - Modificado em: {data_de_modificacao}\n\n'''
