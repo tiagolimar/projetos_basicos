@@ -1,0 +1,22 @@
+:root{
+    --largura-campo: 125px;
+    --largura-total: calc( var(--largura-campo) * 3 );
+}
+
+.field {
+    width: var(--largura-campo);
+    height: var(--largura-campo);
+    text-align: center;
+    line-height: var(--largura-campo);
+}
+
+#comments{
+    width: var(--largura-total);
+}
+
+@media (max-width: 600px) {
+    :root{
+        --largura-campo: 70px;
+        --largura-total: calc( var(--largura-campo) * 3 );
+    }
+}

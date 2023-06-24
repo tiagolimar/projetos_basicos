@@ -4,9 +4,10 @@ let fields = {}
 Array.from(document.querySelectorAll('.field')).forEach(f=>fields[f.id] = f)
 
 let restart = false
-let player = 0
+let player = 1
 let fields_zero = []
 let fields_one = []
+let easy_mode = false
 
 let init = () => {
     success.innerHTML = ''
@@ -24,16 +25,27 @@ let init = () => {
     play()
 }
 
+let get_random_id = () =>{
+    let id_disponiveis = Object.keys(fields)
+    let id = Math.floor(Math.random()*id_disponiveis.length)
+    id = id_disponiveis[id]
+    return id
+}
+
 let define_id = ()=>{
-    let id = predict_play(fields_zero)
-
-    if(id == false) id = predict_play(fields_one)
-
-    if(id == false){
-        let id_disponiveis = Object.keys(fields)
-        id = Math.floor(Math.random()*id_disponiveis.length)
-        id = id_disponiveis[id]
+    let id = false
+    if (easy_mode){
+        id = get_random_id()
+    }else{
+        id = predict_play(fields_zero)
+        
+        if(id == false) id = predict_play(fields_one)
+        
+        if(id == false){
+            id = get_random_id()
+        }
     }
+    console.log(id);
     return id
 }
 
@@ -71,9 +83,11 @@ let after_victory = (status)=>{
         success.innerHTML = 'Você venceu!'
     }else if(status==2){
         comentary.innerHTML = 'Empate!<br>Clique AQUI para reiniciar'
+        count_play.innerHTML = +count_play.innerHTML + 1
         restart = true
         return
     }
+    count_play.innerHTML = +count_play.innerHTML + 1
     comentary.innerHTML = 'Clique AQUI para reiniciar.'
     restart = true
 }
@@ -147,3 +161,5 @@ let predict_play = l =>{
     }
     return id
 }
+
+let change_mode = ()=>easy_mode = !easy_mode
