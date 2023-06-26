@@ -13,7 +13,7 @@ let init = () => {
     success.innerHTML = ''
     danger.innerHTML = ''
     comentary.innerHTML = 'Sua vez! Clique AQUI para reiniciar'
-    player = 0
+    player = 1
     fields_zero = []
     fields_one = []
     restart = false
