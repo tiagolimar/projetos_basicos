@@ -22,4 +22,4 @@ Você pode personalizar o banner de acordo com suas necessidades. Aqui estão al
 
 ## Contribuição
 
-Contribuições são bem-vindas! Se você tiver sugestões, melhorias ou correções, sinta-se à vontade para abrir uma [issue](https://link-para-issues-aqui) ou enviar um [pull request](https://link-para-pull-requests-aqui).
+Contribuições são bem-vindas! Se você tiver sugestões, melhorias ou correções, sinta-se à vontade para abrir uma issue ou enviar um pull request.
