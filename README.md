@@ -4,7 +4,7 @@ Este repositório contém uma série de projetos desenvolvidos para praticar HTM
 
 ## Lista de Projetos
 
-1. [BANNER](1.%20banner/index.html) - Modificado em: 11/02/2023 13:47
+1. [BANNER](1.%20banner/index.html) - Modificado em: 1/07/2023 20:19
 
 1. [BUSCA CEP](2.%20busca_cep/index.html) - Modificado em: 26/03/2023 10:45
 
@@ -22,11 +22,13 @@ Este repositório contém uma série de projetos desenvolvidos para praticar HTM
 
 1. [MATRIX](9.%20matrix/index.html) - Modificado em: 18/02/2023 00:34
 
-1. [JOGO DA VELHA](10.%20jogo_da_velha/index.html) - Modificado em: 23/06/2023 23:02
+1. [JOGO DA VELHA](10.%20jogo_da_velha/index.html) - Modificado em: 26/06/2023 22:20
 
 1. [BIA](11.%20bia/index.html) - Modificado em: 19/06/2023 23:33
 
 1. [TABELA API](12.%20tabela_api/index.html) - Modificado em: 24/06/2023 08:06
+
+1. [GIT API](13.%20git_api/index.html) - Modificado em: 9/07/2023 21:00
 
 ## Como Usar
 
