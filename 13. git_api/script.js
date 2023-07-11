@@ -1,6 +1,6 @@
 const user = document.querySelector('#user');
 const img = document.querySelector('img');
-const lista = document.querySelector('ul')
+const list_repos = document.querySelector('#list_html');
 
 async function getUserInfo(username) {
     try {
@@ -27,43 +27,43 @@ async function getUserInfo(username) {
     }
 }
 
-user.addEventListener('keyup',e=>{
-    if(e.keyCode == 13) main()
-})
-
-async function main() {
-    const data = await getUserInfo(user.value)
-    const [url,repositorios] = data
-    colocarImagem(url)
-    listarRepositorios(repositorios)
+function putImage(url){
+    img.style.display = 'initial';
+    img.src = url;
 }
 
-function colocarImagem(url){
-    img.style.display = 'initial'
-    img.src = url
-}
-
-function listarRepositorios(repositorios){
+function listRepos(repositorios){
+    list_repos.innerHTML = '';
     for(let rep of repositorios) {
-        const item = document.createElement('li')
-        item.classList.add('list-inline-item')
+        const item = document.createElement('li');
+        item.classList.add('list-inline-item');
         
-        const {name,url,data} = rep
+        const {name,url,data} = rep;
         const card = `<div class="card m-2 bg-secondary" style="width: 18rem;">
         <div class="card-body">
           <h5 class="card-title text-light">${name.toUpperCase()}</h5>
-          <p class="card-text text-light">Criado em ${formatarData(data)}</p>
-          <a href="${url}" class="card-link text-light">Acessar</a>
+          <p class="card-text text-light">Criado em ${formatData(data)}</p>
+          <a href="${url}" class="card-link text-light" target="_blank">Acessar</a>
         </div>
-      </div>`
-        item.innerHTML = card
-        lista.appendChild(item)
+      </div>`;
+        item.innerHTML = card;
+        list_repos.appendChild(item);
     }
 }
 
-function formatarData(data){
-    let [year,month,day] = data.split('-')
-    console.log(day);
-    day = day.substring(0,2)
-    return `${day}/${month}/${year}`
+function formatData(data){
+    let [year,month,day] = data.split('-');
+    day = day.substring(0,2);
+    return `${day}/${month}/${year}`;
+}
+
+user.addEventListener('keyup',e=>{
+    if(e.keyCode == 13) main();
+})
+
+async function main() {
+    const data = await getUserInfo(user.value);
+    const [url,repositorios] = data;
+    putImage(url);
+    listRepos(repositorios);
 }
