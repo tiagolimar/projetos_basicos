@@ -1,14 +1,29 @@
 const user = document.querySelector('#user');
 const img = document.querySelector('img');
 const list_repos = document.querySelector('#list_html');
+const loading = document.querySelector('#loading');
+const followers_container = document.querySelector('#followers_container');
+
+let updateLoading = () => {
+    let text = loading.querySelector('h3')
+    if(text){
+        text.remove();
+    }else{
+        loading.innerHTML = '<h3 class="loading text-light text-center">CARREGANDO...</h3>';
+    }
+}
 
 async function getUserInfo(username) {
     try {
+        updateLoading();
         const response = await fetch(`https://api.github.com/users/${username}`);
         const userData = await response.json();
-
-        const { avatar_url } = userData;
-
+        
+        const { avatar_url, followers_url } = userData;
+        
+        const response_followers = await fetch(followers_url);
+        const followers = await response_followers.json();
+        
         const repoResponse = await fetch(`https://api.github.com/users/${username}/repos`);
         const repoData = await repoResponse.json();
 
@@ -18,8 +33,8 @@ async function getUserInfo(username) {
             data: repo.created_at
         }));
 
-        const userInfo = [avatar_url, repositories];
-
+        const userInfo = [avatar_url, followers, repositories];
+        updateLoading();
         return userInfo;
     } catch (error) {
         console.error('Error:', error.message);
@@ -30,6 +45,12 @@ async function getUserInfo(username) {
 function putImage(url){
     img.style.display = 'initial';
     img.src = url;
+}
+
+function putImageFollowers(followers){
+    followers.forEach(follower=>{
+        console.log(follower.login);
+    })
 }
 
 function listRepos(repositorios){
@@ -63,7 +84,8 @@ user.addEventListener('keyup',e=>{
 
 async function main() {
     const data = await getUserInfo(user.value);
-    const [url,repositorios] = data;
+    const [url,followers,repositorios] = data;
     putImage(url);
+    putImageFollowers(followers);
     listRepos(repositorios);
 }
