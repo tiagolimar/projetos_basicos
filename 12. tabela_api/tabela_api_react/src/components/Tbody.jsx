@@ -15,7 +15,9 @@ export const Tbody = (props) => {
     return (
       <tr key={item1}>
         {Object.keys(obj).map((k, item) => {
-          return (typeof obj[k] == "string" || typeof obj[k] == "number" ? (
+          const isString = typeof obj[k] == "string";
+          const isNumber = typeof obj[k] == "number";
+          return (isString || isNumber ? (
             <td key={item}>{obj[k]}</td>
           ) : (
             <td key={item}>{objToString(obj[k])}</td>
