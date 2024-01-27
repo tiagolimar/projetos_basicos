@@ -1,5 +1,6 @@
 const objToString = (obj) => {
   let toString = "";
+  
   for (const k of Object.keys(obj)) {
     if (typeof obj[k] == "string") {
       toString += ", " + obj[k];
