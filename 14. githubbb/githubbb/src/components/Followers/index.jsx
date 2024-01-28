@@ -1,18 +1,42 @@
-import './style.css'
+import { useEffect, useState } from 'react';
+import { Link, useParams } from "react-router-dom";
 
-export const Followers = ()=>{
-    return(
-        <article className="followers d-flex flex-wrap gap-3 border mb-5">
-            {[...Array(10).keys()].map((i) => {
+import axios from 'axios';
+
+import "./style.css";
+
+export const Followers = () => {
+    let { user } = useParams();
+    user = user ? user : 'tiagolimar';
+    const [followers, setFollowers] = useState([]);
+
+    useEffect(() => {
+        axios.get(`https://api.github.com/users/${user}/followers`)
+            .then(response => {
+                setFollowers(response.data);
+            })
+            .catch(error => {
+                console.error("Erro ao buscar seguidores", error);
+            });
+    }, [user]);
+
+    return (
+        <article className="followers row row-cols-xl-6 row row-cols-lg-5 row-cols-md-3 row-cols-sm-2 row-cols-1">
+            {followers.map((follower, i) => {
                 return (
-                    <div className="follower border" key={i}>
-                        <a href={"#"}>
-                            <img src={"#"} alt="imagem de perfil do usuário" />
-                        </a>
-                        <h3 className="text-center fs-5 mt-2">{"Nomedousuário"}</h3>
+                    <div className="follower pt-3 mb-3" key={i}>
+                        <Link to={`/${follower.login}`}>
+                            <img src={follower.avatar_url} alt={follower.login} />
+                        </Link>
+                        <h3 className="text-center fs-6 mt-2 pb-1">
+                            <a href={follower.html_url} target="_blank" rel="noopener noreferrer">
+                                {follower.login}
+                            </a>
+                        </h3>
                     </div>
                 );
             })}
         </article>
-    )
-}
+    );
+};
+

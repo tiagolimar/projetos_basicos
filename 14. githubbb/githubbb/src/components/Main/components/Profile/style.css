@@ -1,9 +1,15 @@
 .profile{
-    height: 100vh;
-    min-width: 350px;
-    border-right: 2px solid #00000040;
+    min-width: 300px;
+    width: 300px;
+    border-right: 2px solid #559BD9;
 }
 
 .profile hr{
+    width: 100%;
+}
+
+.profile img{
+    border: 2px solid #559BD9;
+    border-radius: 50%;
     width: 100%;
 }

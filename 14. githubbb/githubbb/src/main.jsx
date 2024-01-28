@@ -19,12 +19,12 @@ const router = createBrowserRouter([
                 errorElement: <Error />,
             },
             {
-                path: "/seguidores",
+                path: "/:user",
                 element: <Followers />,
                 errorElement: <Error />,
             },
             {
-                path: "/repositorios",
+                path: "/:user/repositorios",
                 element: <Repos />,
                 errorElement: <Error />,
             },
