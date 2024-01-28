@@ -1,3 +1,16 @@
-.user-profile{
+.profile{
     min-width: 250px;
+    border-right: 2px solid #00000040;
+}
+
+.profile hr{
+    width: 90%;
+}
+
+article.tab-pane{
+    display: none !important;
+}
+
+article.tab-pane.active{
+    display: block !important;
 }
