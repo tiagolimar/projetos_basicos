@@ -1,0 +1,9 @@
+.profile{
+    height: 100vh;
+    min-width: 350px;
+    border-right: 2px solid #00000040;
+}
+
+.profile hr{
+    width: 100%;
+}
