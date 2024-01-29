@@ -1,11 +1,11 @@
-.followers img{
+.followers img {
     border-radius: 50%;
     width: 100%;
     transition-duration: 300ms;
 }
 
-.followers img:hover{
-    border: 2px solid #559BD9;
+.followers img:hover {
+    border: 2px solid #559bd9;
     transition-duration: 300ms;
     box-shadow: 0px 0px 15px #00000080;
 }
@@ -18,17 +18,34 @@
     max-width: 100%;
 }
 
-.follower h3 a{
+.follower h3 a {
     text-decoration: none;
     color: #283940;
     transition-duration: 200ms;
 }
 
-.follower h3 a:hover{
+.follower h3 a:hover {
     text-decoration: none;
     font-weight: bold;
-    color: #559BD9;
+    color: #559bd9;
     font-size: 1.25em;
     transition-duration: 200ms;
     transform-origin: bottom;
+}
+
+.follower .espiar:hover {
+    background-color: white;
+    opacity: 0.4;
+    transition-duration: 200ms;
+}
+
+.follower .espiar p{
+    opacity: 0;
+    transform-origin: left;
+    left: 27.5%;
+    bottom: 30%;
+}
+
+.follower .espiar p:hover {
+    opacity: 1;
 }

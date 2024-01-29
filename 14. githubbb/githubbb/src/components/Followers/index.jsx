@@ -26,7 +26,10 @@ export const Followers = () => {
                 return (
                     <div className="follower pt-3 mb-3" key={i}>
                         <Link to={`/${follower.login}`}>
-                            <img src={follower.avatar_url} alt={follower.login} />
+                            <div className="espiar position-relative">
+                                <p className='position-absolute'>ESPIAR</p>
+                                <img src={follower.avatar_url} alt={follower.login} />
+                            </div>
                         </Link>
                         <h3 className="text-center fs-6 mt-2 pb-1">
                             <a href={follower.html_url} target="_blank" rel="noopener noreferrer">

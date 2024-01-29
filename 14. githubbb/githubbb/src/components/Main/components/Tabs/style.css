@@ -1,0 +1,16 @@
+.nav-tabs a{
+    width: 50%;
+    height: 42px;
+    line-height: 36px;
+    text-align: center;
+    text-decoration: none;
+    color: #152618;
+    font-weight: 400;
+    background-color: #9ac6ec;
+    transition-duration: 200ms;
+}
+
+.nav-tabs a:hover{
+    background-color: #559BD9;
+    transition-duration: 200ms;
+}

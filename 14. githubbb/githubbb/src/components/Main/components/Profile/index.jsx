@@ -38,10 +38,10 @@ export const Profile = () => {
                         <h2 className="text-center mt-1">{data.user.login}</h2>
                     </div>
                     <hr />
-                    <div className="profile-info d-flex gap-1">
-                        <p className="profile-info-followers text-secondary">{`${data.followers} seguidores`}</p>
-                        <p className="text-secondary">|</p>
-                        <p className="profile-info-repositories text-secondary">{`${data.repos} repositórios`}</p>
+                    <div className="profile-info d-flex gap-2">
+                        <p className="profile-info-followers">{`${data.followers} seguidores`}</p>
+                        <p>|</p>
+                        <p className="profile-info-repositories">{`${data.repos} repositórios`}</p>
                     </div>
                 </>
             )}

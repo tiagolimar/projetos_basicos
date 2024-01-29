@@ -5,7 +5,12 @@
 }
 
 .profile hr{
+    border: 1px solid #559bd9;  
     width: 100%;
+}
+
+.profile p{
+    color:#559bd9;  
 }
 
 .profile img{
