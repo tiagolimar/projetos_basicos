@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import axios from 'axios';
 import './style.css'
 
@@ -35,13 +35,17 @@ export const Profile = () => {
                         <a href={data.user.html_url || "#"} target='_blank' rel='noopener noreferrer'>
                             <img src={data.user.avatar_url || "#"} alt={`Perfil de ${data.user.login}`} />
                         </a>
-                        <h2 className="text-center mt-1">{data.user.login}</h2>
+                        <h2 className="text-center mt-1">
+                            <a href={data.user.html_url} target="_blank" rel="noopener noreferrer">
+                                {data.user.login}
+                            </a>
+                        </h2>
                     </div>
                     <hr />
-                    <div className="profile-info d-flex gap-2">
-                        <p className="profile-info-followers">{`${data.followers} seguidores`}</p>
+                    <div className="profile-info d-flex gap-1">
+                        <Link className="profile-info-followers" to={`/${user}`}>{`${data.followers} seguidores`}</Link>
                         <p>|</p>
-                        <p className="profile-info-repositories">{`${data.repos} repositórios`}</p>
+                        <Link className="profile-info-repositories" to={`/${user}/repositorios`}>{`${data.repos} repositórios`}</Link>
                     </div>
                 </>
             )}

@@ -1,0 +1,32 @@
+.repo-bg{
+    height: 100%;
+    background-color: #d9d9d9;
+    border-radius: 8px;
+}
+
+.repo a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #3489d4;
+    transition-duration: 200ms;
+}
+
+.repo *{
+    overflow-wrap: break-word;
+}
+
+.repo .num{
+    right: 24px;
+    top: 8px;
+    font-weight: 600;
+    background-color: #ffffff80;
+    padding: 2px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.repo a:hover{
+    color: #114e83;
+    transition-duration: 200ms;
+}

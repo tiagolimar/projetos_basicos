@@ -4,17 +4,34 @@
     border-right: 2px solid #559BD9;
 }
 
+.profile h2{
+    cursor: pointer;
+}
+
 .profile hr{
-    border: 1px solid #559bd9;  
+    border: 1px solid #4491d5;  
     width: 100%;
 }
 
-.profile p{
-    color:#559bd9;  
+.profile a, .profile p{
+    color:#559bd9;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: 200ms;
+}
+
+.profile a:hover{
+    color: #0d599b;
+    transition-duration: 200ms;
 }
 
 .profile img{
     border: 2px solid #559BD9;
     border-radius: 50%;
     width: 100%;
+}
+
+.profile img:hover{
+    transition-duration: 200ms;
+    opacity: 0.5;
 }

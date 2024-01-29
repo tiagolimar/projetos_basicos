@@ -35,17 +35,7 @@
 
 .follower .espiar:hover {
     background-color: white;
-    opacity: 0.4;
+    opacity: 0.7;
     transition-duration: 200ms;
 }
 
-.follower .espiar p{
-    opacity: 0;
-    transform-origin: left;
-    left: 27.5%;
-    bottom: 30%;
-}
-
-.follower .espiar p:hover {
-    opacity: 1;
-}

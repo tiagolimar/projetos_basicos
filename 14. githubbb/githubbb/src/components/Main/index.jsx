@@ -9,7 +9,7 @@ export const Main = (props) => {
             <Profile />
             <section className="user-data container d-flex flex-column">
                 <Tabs />
-                <div className="ps-lg-5 pe-lg-5">
+                <div className="ps-lg-3 pe-lg-3">
                     {props.children}
                 </div>
             </section>
