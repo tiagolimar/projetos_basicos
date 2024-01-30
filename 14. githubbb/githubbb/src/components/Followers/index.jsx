@@ -21,7 +21,7 @@ export const Followers = () => {
     }, [user]);
 
     return (
-        <article className="followers row row-cols-xl-6 row row-cols-lg-5 row-cols-md-3 row-cols-sm-2 row-cols-1">
+        <article className="followers row row-cols-xl-6 row row-cols-lg-5 row-cols-md-3 row-cols-2">
             {followers.map((follower, i) => {
                 return (
                     <div className="follower pt-3 mb-3" key={i}>
