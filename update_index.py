@@ -104,7 +104,6 @@ def substituir_readme():
     identificador_inicio = '## Lista de Projetos'
     ignorar = False
     identificador_final = '## Como Usar'
-    terminar = False
     
     novo_conteudo = ''
 
